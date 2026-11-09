@@ -58,7 +58,7 @@
       document.getElementById("s").oninput = e => r(e.target.value); r("");
     }],
     otazky: ["Maturitní otázky", () => { c.innerHTML = OTAZKY.map(o => `<details><summary>${esc(o[0])}</summary><div>${esc(o[1])}</div></details>`).join(""); }],
-    shrnuti: ["Shrnutí kapitol", () => { c.innerHTML = `<div class="cards">${SHRNUTI.map((s, i) => `<a class="card" href="prezentace.html#${i + 1}"><span class="n">Kapitola ${i + 1}</span><h3>${esc(s[0])}</h3><p>${esc(s[1])}</p></a>`).join("")}</div>`; }],
+    shrnuti: ["Shrnutí kapitol", () => { c.innerHTML = `<div class="cards">${SHRNUTI.map((s, i) => `<div class="card"><span class="n">Kapitola ${i + 1}</span><h3>${esc(s[0])}</h3><p>${esc(s[1])}</p></div>`).join("")}</div>`; }],
     karty: ["Kartičky", cards]
   };
   function cards() {

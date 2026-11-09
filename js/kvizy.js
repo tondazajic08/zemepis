@@ -49,7 +49,7 @@
   }
   function result(st) {
     const pct = Math.round(st.score / st.qs.length * 100);
-    const v = pct >= 85 ? "Výborně, látku máš pevně v hlavě." : pct >= 65 ? "Dobrý základ. Zopakuj si otázky níže." : "Projdi si ještě prezentaci a kartičky, pak to zkus znovu.";
+    const v = pct >= 85 ? "Výborně, látku máš pevně v hlavě." : pct >= 65 ? "Dobrý základ. Zopakuj si otázky níže." : "Projdi si ještě rozšířené informace a kartičky, pak to zkus znovu.";
     app.innerHTML = `<div class="quizbox"><div class="result"><div class="pct">${pct} %</div><p>${st.score} z ${st.qs.length} bodů. ${v}</p><div class="rownext" style="justify-content:center"><button class="btn dark" id="again">Zkusit znovu</button><button class="btn ghost" id="back">Jiný kvíz</button></div></div>${st.wrong.length ? `<div class="review"><h2 style="font-size:26px;margin-bottom:12px">K zopakování</h2>${st.wrong.map(w => `<div class="card"><b>${esc(w.q)}</b><p>Tvá odpověď: ${esc(w.your)}<br>Správně: <b>${esc(w.right)}</b><br>${esc(w.ex)}</p></div>`).join("")}</div>` : ""}</div>`;
     document.getElementById("again").onclick = () => start(st.k);
     document.getElementById("back").onclick = menu;
