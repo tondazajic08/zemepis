@@ -75,6 +75,10 @@ window.QUIZ = {
     { t:"line", key:"stlawrence", c:"river", a:"Řeka svatého Vavřince", pool:"nature", ex:"Spojuje Velká jezera s Atlantikem." },
     { t:"line", key:"sierra", c:"range", a:"Sierra Nevada", pool:"nature", ex:"Pohoří ve východní Kalifornii." }
   ],
+  points: {
+    US: [["New York",[-74,40.7]],["Los Angeles",[-118.24,34.05]],["Chicago",[-87.63,41.88]],["Houston",[-95.37,29.76]],["Washington, D.C.",[-77.04,38.9]],["Seattle",[-122.33,47.6]],["San Francisco",[-122.42,37.77]],["Denver",[-104.99,39.74]],["Miami",[-80.19,25.76]],["Detroit",[-83.05,42.33]],["New Orleans",[-90.07,29.95]],["Boston",[-71.06,42.36]],["Las Vegas",[-115.14,36.17]],["Grand Canyon",[-112.1,36.1]],["Yellowstone",[-110.6,44.5]],["Velké solné jezero",[-112.5,41.1]],["Niagarské vodopády",[-79.07,43.08]]],
+    CA: [["Ottawa",[-75.7,45.42]],["Toronto",[-79.38,43.65]],["Montréal",[-73.57,45.5]],["Québec",[-71.21,46.81]],["Vancouver",[-123.12,49.28]],["Calgary",[-114.07,51.05]],["Edmonton",[-113.49,53.55]],["Winnipeg",[-97.14,49.9]],["Halifax",[-63.57,44.65]],["St. John's",[-52.71,47.56]],["Yellowknife",[-114.37,62.45]],["Whitehorse",[-135.06,60.72]],["Iqaluit",[-68.52,63.75]],["Velké Medvědí jezero",[-121,65.8]],["Velké Otročí jezero",[-114,61.6]],["Národní park Banff",[-115.93,51.5]],["Churchill",[-94.16,58.77]],["Fort McMurray (ropné písky)",[-111.38,56.73]]]
+  },
   pools: {
     us:["Kalifornie","Texas","Florida","Aljaška","Michigan","New York","Wyoming","Ohio","Colorado","Oregon","Georgie"],
     ca:["Québec","Ontario","Alberta","Britská Kolumbie","Nunavut","Saskatchewan","Manitoba","Yukon"],

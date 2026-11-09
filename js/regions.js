@@ -28,6 +28,8 @@
     CA_NU:{th:"nat",tag:"Území Inuitů",ph:[["NU","Iqaluit, hlavní město teritoria"]],f:["Vznikl v roce 1999 oddělením od Severozápadních teritorií.","Největší kanadská jednotka podle rozlohy.","Většinu obyvatel tvoří Inuité.","Převažuje tundra a permafrost."],x:"Do Iqaluitu nevede žádná silnice z jihu Kanady."},
     CA_NL:{th:"nat",tag:"Atlantik a stopy Vikingů",ph:[["NL","Národní park Gros Morne"]],f:["Gros Morne je zapsán na seznamu UNESCO.","Na moři se těží ropa, v Labradoru železná ruda.","Churchill Falls je velká vodní elektrárna."],x:"V L'Anse aux Meadows se dochovala osada Vikingů z doby kolem roku 1000."}
   };
+  for (const id in REGION_INFO) { const r = REGION_INFO[id]; P[id] = { th: r.th, tag: r.tag, ph: [[r.ph, r.cap]], f: r.f, x: r.x }; }
+  for (const id in REGION_EXTRA) if (P[id]) P[id].f = P[id].f.concat(REGION_EXTRA[id]);
   window.REGION_NAMES = Object.fromEntries(Object.entries(BASE).map(([k, v]) => [k, v[0]]));
 
   const panel = document.getElementById("panel");
@@ -50,8 +52,11 @@
     const b = BASE[id], d = P[id], kind = id.startsWith("US_") ? "USA" : "Kanada";
     const cap = id === "CA_QC" ? "Hlavní město: Québec (město)" : id === "US_DC" ? "Federální distrikt" : "Hlavní město: " + b[1];
     if (!d) { panel.innerHTML = `<h2>${esc(b[0])}</h2><p class="tag">${kind} · ${esc(cap)}</p><p>Tato oblast nemá podrobný profil. Vyzkoušej některou z barevných oblastí.</p>`; panel.scrollTop = 0; return; }
-    const figs = d.ph.map(p => { const m = PHOTOS[p[0]]; return `<figure><img src="${m.src}" alt="${esc(p[1])}" loading="lazy"><figcaption>${esc(p[1])}. Foto: ${esc(m.a)}, <a href="${m.u}" target="_blank" rel="noopener">${esc(m.l)}</a></figcaption></figure>`; }).join("");
-    panel.innerHTML = `<h2>${esc(b[0])}</h2><p class="tag">${kind} · ${esc(d.tag)} · ${esc(cap)}</p>${figs}<ul>${d.f.map(x => `<li>${esc(x)}</li>`).join("")}</ul><div class="fun"><b>Zajímavost</b>${esc(d.x)}</div>`;
+    const figs = d.ph.filter(p => PHOTOS[p[0]]).map(p => { const m = PHOTOS[p[0]]; return `<figure><img src="${m.src}" alt="${esc(p[1])}" loading="lazy"><figcaption>${esc(p[1])}. Foto: ${esc(m.a)}, <a href="${m.u}" target="_blank" rel="noopener">${esc(m.l)}</a></figcaption></figure>`; }).join("");
+    const m = REGION_META[id], st = (window.REGION_STATS || {})[id] || {}, n = v => Math.round(v).toLocaleString("cs-CZ");
+    const rows = [[id === "US_DC" ? "Status" : "Hlavní město", id === "US_DC" ? "federální distrikt" : id === "CA_QC" ? "Québec" : b[1]], ["Největší město", m[0]], st.pop && ["Obyvatel", n(st.pop) + " (" + st.popy + ")"], st.area && ["Rozloha", n(st.area) + " km²"], st.pop && st.area && ["Hustota", (st.pop / st.area).toLocaleString("cs-CZ", { maximumFractionDigits: 1 }) + " obyv./km²"], [id === "US_DC" ? "Založení" : id.startsWith("US_") ? "Členem Unie od" : "Součástí Kanady od", m[1]], st.hp && ["Nejvyšší bod", st.hp + (st.elev ? " (" + n(st.elev) + " m)" : "")], ["Přezdívka", m[2]]].filter(Boolean);
+    const wiki = "https://en.wikipedia.org/wiki/" + encodeURIComponent(((window.REGION_STATS || {})[id] || {}).t || b[0]);
+    panel.innerHTML = `<h2>${esc(b[0])}</h2><p class="tag">${kind} · ${esc(d.tag)}</p>${figs}<table class="facts">${rows.map(r => `<tr><th>${r[0]}</th><td>${esc(r[1])}</td></tr>`).join("")}</table><ul>${d.f.map(x => `<li>${esc(x)}</li>`).join("")}</ul><div class="fun"><b>Zajímavost</b>${esc(d.x)}</div><p class="src">Zdroje: <a href="${wiki}" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a> (počet obyvatel, rozloha).</p>`;
     panel.scrollTop = 0;
     if (innerWidth <= 900) panel.scrollIntoView({ behavior: "smooth" });
   }
@@ -68,6 +73,10 @@
     box.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b === e.target));
     paths.forEach(x => { const d = P[x.dataset.id]; x.classList.toggle("off", !!f && !(d && d.th === f)); });
   });
+  const dl = document.getElementById("names"), byName = {};
+  Object.keys(BASE).sort((a, c) => BASE[a][0].localeCompare(BASE[c][0], "cs")).forEach(id => { byName[BASE[id][0].toLowerCase()] = id; dl.insertAdjacentHTML("beforeend", `<option value="${esc(BASE[id][0])}">`); });
+  document.getElementById("find").addEventListener("input", e => { const id = byName[e.target.value.trim().toLowerCase()]; if (id) show(id); });
+  window.REGION_BASE = BASE;
   const start = location.hash.slice(1);
   if (BASE[start]) show(start); else intro();
 })();

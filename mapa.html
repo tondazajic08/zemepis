@@ -10,12 +10,13 @@
 <main class="maplayout">
   <div class="mapcol">
     <h1>Interaktivní mapa</h1>
-    <p>Klikni na stát nebo provincii. Barevné oblasti mají podrobný profil s fotografií.</p>
+    <p>Klikni na kterýkoli stát nebo provincii, případně ji vyhledej. Každá oblast má údaje, profil a fotografii.</p>
+    <input class="mapsearch" id="find" list="names" placeholder="Hledat stát nebo provincii" aria-label="Hledat stát nebo provincii"><datalist id="names"></datalist>
     <div class="filters" id="filters"></div>
     <div id="map"></div>
   </div>
   <aside class="panel" id="panel" aria-live="polite"></aside>
 </main>
-<script src="js/geo-data.js"></script><script src="js/photos.js"></script><script src="js/atlas.js"></script><script src="js/app.js"></script><script src="js/regions.js"></script>
+<script src="js/geo-data.js"></script><script src="js/photos.js"></script><script src="js/atlas.js"></script><script src="js/app.js"></script><script src="js/region-info.js"></script><script src="js/region-stats.js"></script><script src="js/regions.js"></script>
 </body>
 </html>

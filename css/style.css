@@ -148,6 +148,11 @@ body.mappage{background:var(--navy-950);color:#fff}
 .fun{background:var(--navy-800);border-left:3px solid var(--c2);padding:11px 14px;border-radius:0 8px 8px 0;font-size:16px}
 .fun b{color:var(--c2);display:block;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
 
+.mapsearch{width:100%;max-width:340px;padding:7px 12px;border-radius:8px;border:1px solid var(--line-dark);background:var(--navy-800);color:#fff;font:inherit;margin-bottom:10px}
+.facts{background:transparent;margin:0 0 14px;font-size:15px}
+.facts th,.facts td{background:transparent;border:0;border-bottom:1px solid var(--line-dark);padding:5px 8px 5px 0;color:#e7f0fa}
+.facts th{color:#9fc4e6;font-weight:500;white-space:nowrap}
+.panel .src{font-size:13px;color:#9fb9d6;margin:12px 0 0}.panel .src a{color:#bcdcf6}
 /* obsah */
 .layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:44px;padding-top:36px}
 .toc{position:sticky;top:76px;align-self:start;font-size:15px}
@@ -164,6 +169,19 @@ table{border-collapse:collapse;width:100%;background:#fff;font-size:16px}
 th,td{padding:8px 12px;border:1px solid var(--line);text-align:left;vertical-align:top}
 th{background:var(--navy-900);color:#fff;font-weight:600}
 
+/* slepá mapa */
+.blind{max-width:1040px;margin:26px auto 0}
+.bprompt{background:var(--navy-900);color:#fff;border-radius:12px 12px 0 0;padding:14px 20px;display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap}
+.bprompt strong{font:700 27px var(--serif);color:var(--c2)}
+.bmap{background:var(--navy-950);padding:10px;border-radius:0 0 12px 12px}
+.bmap svg{max-height:calc(100vh - 200px)}.blind{scroll-margin-top:66px}
+.bmap .rg.hit:hover{fill:#3a6fa8;filter:none}
+.bmap .rg.ok{fill:var(--c3)}.bmap .rg.no{fill:var(--bad)}.bmap .rg.show{fill:var(--c2)}
+.bmap .pt{cursor:pointer;fill:#fff;stroke:#071730;vector-effect:non-scaling-stroke;stroke-width:1.2}
+.bmap .pt:hover{fill:var(--sky)}.bmap .pt.ok{fill:var(--c3)}.bmap .pt.no{fill:var(--bad)}.bmap .pt.show{fill:var(--c2)}
+.bfb{min-height:30px;margin:10px 0;font-weight:600}
+.bfb.good{color:var(--ok)}.bfb.bad{color:var(--bad)}
+.grouph{font-size:26px;margin:0 0 12px}.grouph+.cards{margin-bottom:30px}
 /* kvízy a maturita */
 .quizbox{max-width:800px;margin:32px auto 0}
 .qhead{display:flex;justify-content:space-between;font-size:15px;color:var(--muted);margin-bottom:6px}

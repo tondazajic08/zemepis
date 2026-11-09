@@ -75,7 +75,7 @@ window.Atlas = (function () {
       akHtml = `<rect class="inset solid" x="${T[0] - hw}" y="${T[1] - hh}" width="${2 * hw}" height="${2 * hh}" rx="3"/><g transform="translate(${T[0]} ${T[1]}) scale(${k}) translate(${-cx} ${-cy})">`;
     }
     G.regions.forEach(r => {
-      if (o.ak && r.id === "US_AK") { akHtml += `<path class="rg ${(o.fills && o.fills[r.id]) || ""}" d="${r.d}"/></g>`; return; }
+      if (o.ak && r.id === "US_AK") { akHtml += `<path class="rg ${(o.fills && o.fills[r.id]) || ""}${o.hit ? " hit" : ""}" d="${r.d}"${o.hit ? ` data-id="${r.id}" tabindex="0" role="button" aria-label="Oblast"` : ""}/></g>`; return; }
       let c = "rg " + ((o.fills && o.fills[r.id]) || "");
       if (o.dim && o.dim(r.id)) c += " dim";
       if (o.hit) c += " hit";
