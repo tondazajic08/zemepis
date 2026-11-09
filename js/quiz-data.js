@@ -11,7 +11,7 @@ window.QUIZ = {
     ["Se kterým městem je tradičně spojen automobilový průmysl USA?", ["Detroit", "Houston", "Denver", "Atlanta"], "Detroit se přezdívá Motor City."],
     ["Který sektor dominuje ekonomice USA?", ["Terciární a kvartérní", "Primární", "Sekundární", "Pouze zemědělství"], "Rozhodující jsou služby, finance, výzkum a technologie."],
     ["Který park se stal roku 1872 prvním národním parkem na světě?", ["Yellowstone", "Yosemite", "Grand Canyon", "Everglades"], "Yellowstone leží převážně ve Wyomingu."],
-    ["Jaký je oficiální status angličtiny na federální úrovni podle podkladů této prezentace?", ["Je dominantní, ale federálně není stanovena jako úřední", "Je jediným ústavním jazykem", "Je rovnocenná se španělštinou", "Používá se jen v Kongresu"], "Angličtina je dominantní, ústava úřední jazyk nestanovuje."],
+    ["Co platí o úředním jazyce USA na federální úrovni?", ["Angličtinu určil úředním jazykem prezidentský výnos v březnu 2025", "Úředním jazykem je ze zákona španělština", "Angličtinu stanovila už ústava z roku 1787", "USA mají dva rovnocenné úřední jazyky"], "Ústava úřední jazyk nestanovuje, angličtinu označil za úřední až výnos prezidenta z 1. března 2025."],
     ["Ve kterém státě se soustřeďuje těžba ropy a petrochemie kolem Houstonu?", ["Texas", "Ohio", "Kalifornie", "Georgie"], "Texas je největším producentem ropy v USA."],
     ["Kdo je v USA hlavou státu i vlády?", ["Prezident", "Předseda Senátu", "Premiér", "Předseda Nejvyššího soudu"], "USA jsou prezidentskou republikou."],
     ["Co se v USA označuje pojmem Rust Belt?", ["Oblast upadajícího těžkého průmyslu u Velkých jezer", "Zemědělský pás na jihu", "Oblast těžby mědi", "Pobřeží Tichého oceánu"], "Rust Belt je bývalé centrum těžkého průmyslu."]
