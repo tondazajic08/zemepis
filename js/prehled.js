@@ -5,55 +5,8 @@
   const fmt = (v, d) => v.toLocaleString("cs-CZ", { maximumFractionDigits: d === undefined ? 1 : d });
   const group = m => { const f = {}; for (const k in m) m[k].split(" ").forEach(s => { f[(s.length === 2 ? "US_" : "") + s] = k; }); return f; };
 
-  /* ---------- tematické mapy ---------- */
-  const dens = id => { const s = REGION_STATS[id]; return s && s.pop && s.area ? s.pop / s.area : null; };
-  const MAPS = {
-    hustota: {
-      t: "Hustota zalidnění", p: "Obyvatel na km² podle sčítání (USA 2020, Kanada 2021). Washington, D.C. má přes 4 000 obyvatel na km², na mapě je jen nepatrná ploška mezi Marylandem a Virginií.",
-      fills: () => Object.fromEntries(ids.map(id => { const d = dens(id); return [id, d == null ? "" : d < 2 ? "s1" : d < 20 ? "s2" : d < 50 ? "s3" : d < 150 ? "s4" : "s5"]; })),
-      legend: [["s1", "pod 2"], ["s2", "2–20"], ["s3", "20–50"], ["s4", "50–150"], ["s5", "nad 150"]],
-      hover: id => { const d = dens(id); return d == null ? "" : fmt(d) + " obyv./km²"; }
-    },
-    podnebi: {
-      t: "Podnebí", p: "Zjednodušeně: u každé jednotky je jen převládající typ podnebí. Ve velkých státech a provinciích se podnebí uvnitř výrazně liší, například na západě Texasu je sucho a na severu Québecu subarktické podnebí.",
-      fills: () => group({ c5: "AK CA_YT CA_NT CA_NU CA_NL", c1: "ME NH VT MA RI CT NY PA NJ OH MI IN IL WI MN IA ND SD NE CA_ON CA_QC CA_NB CA_NS CA_PE CA_MB CA_SK CA_AB", c4: "MT WY CO UT NV AZ NM ID", c2: "WA OR CA CA_BC", c3: "DE MD DC VA WV KY TN NC SC GA AL MS LA AR MO OK TX KS FL HI" }),
-      legend: [["c5", "polární a subarktické"], ["c1", "vlhké kontinentální"], ["c4", "suché a horské"], ["c2", "pacifické (oceánské, středomořské)"], ["c3", "vlhké subtropické, tropické (Havaj, jih Floridy)"]]
-    },
-    zemedelstvi: {
-      t: "Zemědělské oblasti", p: "Tradiční zemědělské pásy. Dnes jsou méně vyhraněné, mapa ukazuje státy, kde je daná výroba nejvýraznější. Kanadské prérie pěstují hlavně pšenici a řepku.",
-      fills: () => group({ c2: "IA IL IN NE OH", c1: "KS ND OK MT SD CA_SK CA_AB CA_MB", c4: "TX GA MS AR AL", c3: "WI MN NY VT", c5: "WY NM" }),
-      legend: [["c2", "Corn Belt (kukuřice, sója)"], ["c1", "Wheat Belt (pšenice)"], ["c4", "Cotton Belt (bavlna)"], ["c3", "Dairy Belt (mléko)"], ["c5", "pastevectví skotu"]]
-    },
-    suroviny: {
-      t: "Suroviny a energie", p: "Hlavní ložiska a velké vodní elektrárny. Ropa a plyn se v USA těží i v dalších státech.",
-      markers: [
-        [-102.5, 31.8, "c4", "Permská pánev", "r"], [-103, 48, "c4", "Bakken", "t"], [-148.4, 70.2, "c4", "Prudhoe Bay", "r"], [-111.4, 57, "c4", "ropné písky Athabasca", "l"], [-90, 27.6, "c4", "Mexický záliv", "b"],
-        [-105.5, 44, "c5", "uhlí Powder River", "r"], [-81.5, 37.8, "c5", "uhlí Apalače", "r"],
-        [-92.5, 47.5, "c2", "železo Mesabi", "b"], [-110.8, 33.2, "c2", "měď Arizona", "r"], [-116.1, 40.7, "c2", "zlato Nevada", "l"], [-81, 46.5, "c2", "nikl Sudbury", "r"],
-        [-106.6, 52.1, "", "potaš Saskatchewan", "l"], [-105, 58, "", "uran Athabasca", "r"], [-110.6, 64.7, "", "diamanty", "r"],
-        [-77.5, 53.8, "c3", "James Bay", "r"], [-64, 53.5, "c3", "Churchill Falls", "r"], [-119, 48, "c3", "Grand Coulee", "l"], [-114.7, 36, "c3", "Hooverova přehrada", "l"]
-      ],
-      legend: [["c4", "ropa a plyn"], ["c5", "uhlí"], ["c2", "kovy"], ["", "ostatní suroviny"], ["c3", "vodní elektrárny"]]
-    },
-    relief: {
-      t: "Povrch a řeky", p: "Hlavní pohoří (oranžově), řeky (modře) a Kanadský štít (žlutě vyznačený).",
-      lines: () => ["rockies", "cascades", "sierra", "appalachiansUS", "appalachiansCA"].map(k => ({ c: "range", pts: Atlas.F[k] })).concat(["mississippi", "stlawrence", "mackenzie", "yukon"].map(k => ({ c: "river", pts: Atlas.F[k] }))),
-      areas: () => [Atlas.F.shield],
-      texts: [[-114, 45.5, "Kordillery", "t-range"], [-76.5, 37.5, "Apalače", "t-range"], [-104.5, 43, "Velké planiny"], [-87, 42.5, "Centrální nížiny"], [-117, 39.5, "Velká pánev"], [-103, 62.5, "Kanadský štít", "t-dark"], [-86, 58.5, "Hudsonův záliv"], [-93, 33, "Mississippi"], [-122.5, 64.5, "Mackenzie"]]
-    }
-  };
-  function maps(sel) {
-    sel = MAPS[sel] ? sel : "hustota";
-    c.innerHTML = `<div class="filters light">${Object.entries(MAPS).map(([k, m]) => `<button data-m="${k}" aria-pressed="${k === sel}">${m.t}</button>`).join("")}</div><h2 class="grouph">${MAPS[sel].t}</h2><p>${MAPS[sel].p}</p><div class="tmap" id="tm"></div>`;
-    const m = MAPS[sel], el = document.getElementById("tm");
-    Atlas.draw(el, {
-      view: "all", fills: m.fills ? m.fills() : null, legend: m.legend, lines: m.lines && m.lines(), areas: m.areas && m.areas(), hit: true, names: Object.fromEntries(ids.map(i => [i, name(i)])),
-      markers: (m.markers || []).map(x => ({ at: [x[0], x[1]], c: x[2], t: x[3], pos: x[4] })), texts: (m.texts || []).map(x => ({ at: [x[0], x[1]], t: x[2], c: x[3] || "", s: .9 })), title: m.t
-    });
-    el.addEventListener("mousemove", e => { const id = e.target.dataset && e.target.dataset.id; if (!id) return hide(); show(e, `<b>${esc(name(id))}</b>${m.hover && m.hover(id) ? "<br>" + m.hover(id) : ""}`); });
-    el.addEventListener("mouseleave", hide);
-    c.querySelector(".filters").onclick = e => { if (e.target.dataset.m) { maps(e.target.dataset.m); history.replaceState(null, "", "#mapy-" + e.target.dataset.m); } };
-  }
+  /* ---------- tematické mapy (js/tmaps.js) ---------- */
+  function maps(sel) { window.renderMaps(c, sel, show, hide); }
 
   /* ---------- časová osa ---------- */
   const AREA = { US: ["USA", "tUS"], CA: ["Kanada", "tCA"], NA: ["NAFTA a obchod", "tNA"] };
