@@ -1,6 +1,6 @@
 /* Společná navigace a patička. */
 (function () {
-  const links = [["index.html", "Úvod"], ["mapa.html", "Mapa"], ["rozsirene.html", "Rozšířené informace"], ["kvizy.html", "Kvízy"], ["maturita.html", "Maturita"]];
+  const links = [["index.html", "Úvod"], ["mapa.html", "Mapa"], ["rozsirene.html", "Rozšířené informace"], ["prehled.html", "Mapy a grafy"], ["kvizy.html", "Kvízy"], ["maturita.html", "Maturita"], ["novinky.html", "Novinky"]];
   const here = location.pathname.split("/").pop() || "index.html";
   const h = document.getElementById("top");
   if (h) h.innerHTML = '<nav aria-label="Hlavní navigace"><a class="brand" href="index.html">USA <span>&amp;</span> Canada</a>' +
