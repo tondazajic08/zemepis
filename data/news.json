@@ -1,123 +1,263 @@
 {
-"updated": "2026-11-13T16:29:20Z",
+"updated": "2026-11-13T23:37:23Z",
 "items": [
 {
-"t": "Nahrazování dolaru a páky na Spojené státy",
-"u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HLS1PbEttM2p6c2NvX1lQdEVsZDdYSFl1NUVuYzk0c1pNU0NCcEVJQ2VzajI3cG9RSWVjV19jTGtTdVZSdEctTkUyMDFWTmtidDlwN3NFNU1HRV9YcFVXNUNfMnZyQWxjN2RETU1nNVpyMFpzMEoyX3pBdjc3Ukk?oc=5",
-"s": "Zprávy Kurzy.cz",
-"d": "2026-11-13T16:09:00Z",
-"k": "USA"
-},
-{
-"t": "Fed varuje, že umělá inteligence by mohla způsobit velký šok na americkém trhu práce.",
-"u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSnBpMmg1OHBTRnBLSElDbGgwUndvYXRmUEdLYXZ3elVVS0VkMHNTV01rOXVGdXU5VjVCVzYwSWpmSE0wZUlKWUttNEd0bUV6TGVrUmw3cmlucnZ1NkFlcmJlYzlpNzJQOHNQUlVKNmlYc0Y0bTZJdkhNX1I3MGtxdmJRenVOeUZUU3F3MjgxS3NpN055?oc=5",
-"s": "Vietnam.vn",
-"d": "2026-11-13T15:53:22Z",
-"k": "USA"
-},
-{
-"t": "USA zabavily kryptoměny za 1,2 miliardy dolarů ukradené burze Binance",
-"u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaGNCNzlVUkVCT19xeWZoVzFMMXRiX2dHdlFHaTZSZ3UyT19qNjcyZ3hDYVdwNGVKcW5wdUFra3ZxRWNIZHl1ZmVjZXpNR21TNjFTbVM2cnhRRVNLX2lrRnRlaGFJRS1ZVzZpR3RsOGhDeXdubENyV3JGcm5TUnppSkFvZFpKNkFKamNnTFdlQ0RTdDcyZERHVkVEcHlaTTgxbGMxcWRBMDhhNkVjdGY0SmMxbzk?oc=5",
-"s": "Investiční web",
-"d": "2026-11-13T15:26:00Z",
-"k": "USA"
-},
-{
-"t": "Star Wars: The Experience, interaktivní výstava ohlášená v USA… kdy se dočká Paříž?",
-"u": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQeDdIdlZVbFhmcTJyTzN4UzlHT3VnR3FMWm1aSTlQRGJYTzRXOTRBYW1DdlpBQmlHd1dncEI1RzA5OUNLRWdaM1ZoeHYtSUxxVzVnZkFKeEZZVXNaQTBwWGh2RmhNc0w3b19QNXlPSlU0RGI3ejhROE8zSkZjVkM0eFFtZGNla2JCNWRFMjNxVF9sZG94LUROeThVT2ZVaDc1WWtVaU5uNVNaeFRvMmlvZlpDUHRSeXVvdU1QTTA3LXJteGZsTml1QW9IMEhmdmtiRHZkTGJzSkFyWF9kc0FZbU1RQ29JcUI0UFFzUF90Qm96MTJxaEpDTTlaa1RoZkU1TTN3T2U2cw?oc=5",
-"s": "Sortir à Paris",
-"d": "2026-11-13T15:16:23Z",
-"k": "USA"
-},
-{
-"t": "USA oznámily, že další kolo rozhovorů mezi Ruskem a Ukrajinou se bude týkat i Evropy.",
-"u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdHFHZXZjek9PUndCNlNmZDBrLXdwUFVoMWE2eHpHakNCblE1VnF3SUhmM193OTFUTWVHbW00ZWU3Q3NlU1g3ZzdFM3JxYUdfTFZad1VLN1BMUGdvelgzZENwV0dwei1ibDVPUGFlQXlsb0RMWlhPQ0RLclgzbkRURTM4cGdDajBrNElFLVVLckI1U3A5X3c?oc=5",
-"s": "Vietnam.vn",
-"d": "2026-11-13T14:38:38Z",
-"k": "USA"
-},
-{
-"t": "USA popírají, že by byla napadena radarová stanice včasného varování v Bahrajnu.",
-"u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdWRNMnd6OUJ2MFZzeFVkeVI4UUdyOEVUT3ZMcXFMcnpLcnBYUzRpT0pId0JmemhTV1o4VGp2X3FVZ3BkZXJlYzFJd18tRXBIMFdEYm5laVFJY2c5YkpDRWVjNWszXzRXNGdHVjJXbzhrd3EzcmY3RG93TXJneXhxdW01Z0thQUNxXzEw?oc=5",
-"s": "Vietnam.vn",
-"d": "2026-11-13T14:38:38Z",
-"k": "USA"
-},
-{
-"t": "Očekávané výsledky světových firem v týdnu od 16. listopadu: NVIDIA, Walt Disney, Home Depot, Walmart",
-"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRGs5eGhWMjl2NGJtZlJjVHQ1VGRfLXZyZkJ2azlSUmx6NDhja0pvTlh4WU1hb2pnZ2VvQjJndkVaT1JPOFQtT0xyUXdmSndtcGJuZUwyclVXS2tvWmxLaklSSDB6TDhPaTVPd2Q3N2tlTE1FMm9YZ2R0S0tCbGFzMHhtUXY0YUpGSFRLcEJ2d3R1V1d3aDF1emVPb3lRVTBOZi1VQXoxQV8?oc=5",
-"s": "Investiční web",
-"d": "2026-11-13T14:05:58Z",
-"k": "USA"
-},
-{
-"t": "Írán uvádí dva důvody, proč válka s USA ještě neskončila.",
-"u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVE9zTDhMUDdZZUNBMkQ1REpKRG83RU41WXBVaHBiR3REYkhoeEtBYXkyY2Q4MUJ3Vzd0WGk0djNJZXpjMnh4aW9iNlZibDF1S0FWbVlGb1NMODZiRHBMbkp3UzFmYm9xa3pDdEpuQjdKSFpqbkVvLUdPRGlYUEloZTlsTmNuazg?oc=5",
-"s": "Vietnam.vn",
-"d": "2026-11-13T13:53:03Z",
-"k": "USA"
-},
-{
-"t": "Manchester United bude trénovat Pochettino. Kvůli tomu se vzdá reprezentaci USA",
-"u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaW4xQ0k3N29wZWU0Rm81QkFDQWJ4bGszdk96V2dSamlHSFNYY2VVeVFSOUo3R1BtbGRibjB6Y0Z4aXh1TzYtaldiOUlOMEJWWklSaWNKQ1dmTlduNFlkTEpiSFVQeEozU01qTy1ZdXlrci10aHpHTjl2Rjh2R0hkWkhMeUE1TEFTbFV0aHZEb0gzdk1SYmlxQkNac0I1UVJRUGdzX19qdF8yWkhRS1c4Y01PemVKUQ?oc=5",
-"s": "Deník.cz",
-"d": "2026-11-13T13:50:17Z",
-"k": "USA"
-},
-{
-"t": "MS hokejistek Kanada – Česko",
-"u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOUdPVUhRT0R3aVU3eDFvZU1HTzNwZ1BhRVhhSXd2c1pVRjNqc29kQlMwQ0RwSll6WkJTU3hXTG1iaDFUOHhFTDBLOGpmbkRzeHdKdHQ3eklnTm45NHRWMk9JdXBYdUVvU1RhU1V0MDZZUHdBVXVCYWk0SXV1dGZaSUlacw?oc=5",
-"s": "ČT sport",
-"d": "2026-11-13T13:50:00Z",
-"k": "Kanada"
-},
-{
-"t": "MS v hokeji žen 2026 ONLINE: Češky hrají čtvrtfinále s Kanadou",
-"u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcW93Z2NPT29QRGdJTF8zeDktT29WT0NrMXhYREVOeWlEc0pTVUJhTHl4N0locmpUSks1LW1tcmluRjhieEZUMzR6amJQTzRBYmExdjM0bmNlZkJhNmhTa0l2U3Q3NUlxVVpfOE5OcG5Qa3lqMGM3WWtSQWVzOHFIU0dpMVZwU2dyNjhOR0pWLUFwTWYxZUNGRUkwc3A5RDdZM2djSVl2UjZvQm9RcDlwU3N0LVBYOWxjYnEzUGZnUHl0Z1ZG?oc=5",
-"s": "iDNES.cz",
-"d": "2026-11-13T13:45:00Z",
-"k": "Kanada"
-},
-{
-"t": "USA: Index výrobních cen (PPI) v říjnu meziměsíčně vzrostl o 0,3 % (odhad: 0,4 %, září: 1,4 %), mezi",
-"u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaWN3LUVVMDRnaHlOaGZMMzRSc1A2SzdqNjFqa1dwWERNTmRHZWU5MTBSNjBXQi10UmdpclNTQmZ5Y2xNa3Fma29aR2t1bktnUUZDdDhYaXdSOVdmMHE5RWszOW1KanBIUk9fU1d5eHcyeWktQ09CRUNSbDlHamYtVGR6MUEzSV9MVzhwTlIyb3Exc1pUSmk3WXg2SjZLS2ZBTVN6UXVfZ3piUFFYRkdUUzZRNHU2cDBhdElyV0oyQnMya1dqb1lz?oc=5",
-"s": "Investiční web",
-"d": "2026-11-13T13:35:00Z",
-"k": "USA"
-},
-{
-"t": "Tři trhy, které sledovat příští týden (13.11.2026)",
-"u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWU9KVEVqRGlsOV8wcmdSTFZ4SzU5dXU0MEtNU0JuNEk4cFBzZlJLc212N0h6RE5TNm95TzFzd1ZKU1Q2R2d6b29UV244dWNMLWVseFJ3aUI4dmVTRlloNnM3ZjVnaElmZmVpeTVKQ3JXYWVrbUZXcUlrRXlGUFR5UlJXRC1WZw?oc=5",
-"s": "Zprávy Kurzy.cz",
-"d": "2026-11-13T13:31:00Z",
-"k": "USA"
-},
-{
-"t": "Pochettino oficiálně v Manchesteru United! USA ho chce nahradit Guardiolou",
-"u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdS1mRzV2YWEtUnJiREs5cnhUQTl2cEFxLUx2NXNUTTRTckNxTFlNMHlBU0dTYldMV2Z2VFQyTWJjV0JkbUxUZ0tCSTRhTzhfNXlYOXJRVS16VG9VZnd3b05qaHZwSTdCNW9Zd2MtZlgxZE9QTVZmTXVrY2VFY0VsQlp4bEVZeGNKbUY0WnF6LUlVangwMHN6ZUFHR2hNczRZdmFtZ1VySmdQNzBDY0l2d2hLdEZXMmY2Mnc?oc=5",
-"s": "Eurofotbal",
-"d": "2026-11-13T13:19:47Z",
-"k": "USA"
-},
-{
-"t": "Rusko přijde za měsíc na Ukrajině o tolik vojáků, kolik USA ztratily za celou válku ve Vietnamu, prohlásil Rutte",
-"u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUGdINTNTd1dxTkVqZVdJSlNZWUJIaWppazdGYUc4Z3B4ZFJNQ0N2S2Z1c1BuM1pHOUFxWHJFbGU0QXRta1FRU1FPWTl1MUs1R29sOVV1RXhudFIzdkIwb1owWlZUdFJZWXk2X2liVDJFdzN5ZnJhR1BOYmcxaEhfYWpJOUlNYTBjV2FTY2M2Q1d4TnNSVC00X3JCQzFZbkVST1B2bzdTNVJPYWM0Wlo1MGZpVGRSTXhrcUk4RFpHTnk2WGRsNmRlaUVzRW44c3V3TzRrYXZEbU50TnZZc2JrNzlCZDdoVDg?oc=5",
-"s": "EuroZprávy.cz",
-"d": "2026-11-13T13:05:00Z",
-"k": "USA"
-},
-{
-"t": "NATO je záruka bezpečnosti a z EU pryč nikdo nechce, ukázal mezinárodní průzkum",
-"u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOUVUTlRneld1b3lua2lvU2tRQ3NFMjBMMy1LRHRhcGlDVzI4d2lnLVJYNW9sTzQya0hHekRYamR6cU5FZjl2bmRtUGhTV1JqTnZ2ZklKRG9SZU5nM05EanoxS2FvT2JERTlvS2htVTluV1FIcUhpYVZGS2liOEhjZC1oQVFEOXh0TllzbVpsaDl1LTZ1X3g5ZEthaWhyYjlNQ3ZXekNvTTcwSWEyZzk1N0VkbFpMNnlLYm1vVDZtTDMwdTFack52OVNjNjV0SHpm?oc=5",
+"t": "Nevědí, co se děje. Letiště v USA se potýkají s výpadky radarů, nefungují rádiové frekvence",
+"u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcEY0eml3QnpVUXR5QzNKWWo1aDR0b3VxNnlGeHVfdmF6LVVMMXpvVjlGQmpEaTZ1eXYxTks3VUhyTUZ6S2tnRE15TElReFlxaWViYVczaTMwMXdJNHFRQWNsMERGREI5d0dqNjEwOXBnQm1lcFR5eWFvdVJ5akpSbGtRdEViWnRrYWFlYkMwanRBODVLWXRsSzVaSVlhY1RWa2NsSWNWMUpPR2FxQk1yMXRMbTVXZFl1bTJ6ZXIwdUhWMjduWlZ3RnVwVDYxanoyeTVuMmhiSFVhNDNVdURr?oc=5",
 "s": "Novinky",
-"d": "2026-11-13T12:46:32Z",
+"d": "2026-11-13T23:18:38Z",
 "k": "USA"
 },
 {
-"t": "Hokej Online: Kanada - Česko 3:1, Mistrovství světa žen",
+"t": "Hlavní úkoly demokratů? Být proti Trumpovi, být opozicí a nerozpadnout se, míní amerikanista",
+"u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVHFjLTNfbmo4Q05hRnBfY3hKbk96QTNxNTVLMDdXd21sdG84YmRGd1dQQzdFRlBRQmRMeW9hOGxLYXp3UUoxVm1KeUhScG5DZFJvMTFMQnhkcEFvMngzZmU4NG9MaE1SSTNlSmpnc1NVRGJiVkFmamdvVEo4TzRSNmVYcTNsUkNGRXl0RkUtMGF5WmNXTHJWdV9HOTFTSjY4QkNYS1lCamJrZTQxRDdZc1dlNjZpTEU3SnpKVkpLcTdVTzIxMDRn?oc=5",
+"s": "iROZHLAS",
+"d": "2026-11-13T23:10:00Z",
+"k": "USA"
+},
+{
+"t": "Česko není v elitním klubu. Velvyslanec při NATO vysvětlil, dle čeho USA vybírají",
+"u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWUdmeGs2M1RFNndrRGthTkctbS00aTBfYzNnd3RkeUFfNWxPejMzaUQycHlSZUoyY25WYTNGaUNPSVpsNTBBZ2pDeVpwOUVxQ2xhSGNOTUE1ZWo5eHlTYVBJTHdJa0hOQ2M5MUoyQkVvbE1vNU9kY1g1U3hpMHB2NDBkV2RtdUVtYlVxM0RqR3FibUJXQzFrYnBoSzdEbFBFVHpmdmpKN0p0TnJ0SXc1VmJiQVc4d0QwbWgwZQ?oc=5",
+"s": "Echo24",
+"d": "2026-11-13T23:01:00Z",
+"k": "USA"
+},
+{
+"t": "V USA vyhlásily celonárodní pozastavení letů kvůli problémům s komunikací",
+"u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOakZDaUlBNmVBMHhGeThPVXE2M01uY1h3ZEFLX29qTlBkX1ZGV2phMmREaEdZdHZYTXhqMmlxNDVsdTNWSzdDeG1nZXRFYVRIV0dlN1NuakZXRmNpQlBEdkh5NFZPb3lxWHY1SjFockliYVdvVmJ6QU9VQnBoYm54QWxzOGRjaWVrRU9OdlhhR3BrNmx2cnhDUWN2MW9Mb3ZKY25ZdzR3T3ZueEg2R0E?oc=5",
+"s": "ČT24",
+"d": "2026-11-13T22:44:43Z",
+"k": "USA"
+},
+{
+"t": "V USA úřady nařídily zastavení provozu na všech letištích",
+"u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWHFQcEtRdXdBcXNJVm5ITWdqcWtFSjRtVDA2TjJzQXVHRVJVUGhSeHdrMzF0cHR2VFpSM19FMUpaZFdxMGdvRno2ZUxoeGJkeFB3bGIyT2xQS2w0Y3J6d3B0Y1dGM3RwT1hPNDF0R3FXS0pKME9ielY5SThPNzBoZWxJc1NrQldXMGN5VWhkdEJia0thQWpjR19SY3k0WnRsYTFrZnBoYw?oc=5",
+"s": "TN.cz",
+"d": "2026-11-13T22:41:00Z",
+"k": "USA"
+},
+{
+"t": "USA zastavily odlety na všech letištích. Vyšetřuje mimořádnou bezpečnostní situaci",
+"u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZF84R0lXVTZhMDk5VEd5WUk3SDNodkJfSE5pVDA4VWtvajUwZjdzSEpBa09vTXpaZ3ZLVF9yeDE5SHdNWXNvQnUxc1JnbFBPR3JlZjN2WFZGNGZZODZvMTZybGd1V0FYLXAtaWFvNkEzb3NmcnpPMkdkclZFaEk5d1JqdVBXeldrX3c0Nmt2bGJQdlhCU0ctTE9qU0lYQW9kYnc?oc=5",
+"s": "Forbes Česko",
+"d": "2026-11-13T22:17:28Z",
+"k": "USA"
+},
+{
+"t": "Letecký kolaps: v USA vyhlásily celonárodní pozastavení letů",
+"u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUkZWbFBIU3VvdWc0WXJlU2pVckpESDdWVzhCZ29kWU5qd0RydnBnQ1JldUlOZFdrVGQxeFBIR0pzd2JaQnQ1STY4clByQ0IycndlMEZCQXdWWGQ4UXRzUl9oaWVHcm5vdHhtZFZvcU1CSWk4Q1ZjblB6TndGNVZUaU11cUJqbU1aZkdHc1ozWldENmhzQ1ZZYnotYjFQM1VEUmg4?oc=5",
+"s": "Echo24",
+"d": "2026-11-13T22:05:00Z",
+"k": "USA"
+},
+{
+"t": "Spojené státy pozastavily všechny odlety letadel",
+"u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZWgwUGFmQW1WRFpIRDBYSGtpWkFYSTB5TlFSNGlpeWtfc3ZqdzNYRHYzc2lhMFdRSTI2aHBOZmplOTBNOVc0Y2s5alI0MU1wZzlkekt5V3JpbndYR2NlUzhqR0IzZTZrdlQ2MjZLZ3pIRlgtNWlXbVlXNGRuaGhPejMwRV9DZw?oc=5",
+"s": "Airways.cz",
+"d": "2026-11-13T21:48:00Z",
+"k": "USA"
+},
+{
+"t": "V USA pozastavili všechny lety v zemi. Střediska hlásí problém s komunikací",
+"u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONUt2TVZjWTZZMzZ6OWdDYjNLN1pPbFF0UDJUdmkwdEJmVE5hNkJoaVFFQ1UxVTcyUzItQXZGeU92UWdCTTZJYXFMMnlPZWJmR2pHQjVkOVc0N282cnRHWnA0bmR0R05XUTRHamRIazN5X1BSWm81U0VYQTA0dXR4cnVZVWJLRzJnaWFFZVNsMVJFQnFlYWw2eHVmWQ?oc=5",
+"s": "Deník.cz",
+"d": "2026-11-13T21:44:21Z",
+"k": "USA"
+},
+{
+"t": "USA zastavily odlety v celé zemi. Řízení letového provozu hlásí vážné problémy",
+"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYUVRWWp6RDNiR0owZDBjcUppY0dSOC02LS1DSFNHdjhCQkZXNUpnTzNTTXA3YVJQUnNwTUs4R2Z5NkwtbEUwbDRjbmRwY3lNemZuYldQRWdoSDROUDFMUnAxRjhKSkswYWZaOGVRb21MS1c3LXpETUpuRE1sbW5tOGt4RTVVam5IVTlMVUwwejlGa2pGbmM5a3p4RWxWVnJzYWZ1RHNsTWY?oc=5",
+"s": "Zdopravy.cz",
+"d": "2026-11-13T21:36:50Z",
+"k": "USA"
+},
+{
+"t": "Tanker se v New Orleansu srazil s výletní lodí se 129 pasažéry na palubě. Oběti zatím hlášeny nejsou",
+"u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSVNxWnlDU2s0VGlxSUlIRS1mbFpYZVVXTUJ4MUhmeW9aWUptMmxVUU5WWWhmTk8wckVNOURJX2FWZlRUX0VCY1JqN01QbXA3RkRMdXA3TkhrTGNtLVJDSGJuN2ZSeGQxdElzSTJtbkZlXzkwc2V1RF9xSkRjY2paX3RLRV9aSEd6dXFGb2pSLXN3b1BQM0M2RXdKcGRLQzBQdmtoWnROUVhQVXNPWWZFX3ZRVnpBcEdZMHlXZVBSbE5ONmZDS09qZw?oc=5",
+"s": "iROZHLAS",
+"d": "2026-11-13T21:35:00Z",
+"k": "USA"
+},
+{
+"t": "V USA vyhlásili celonárodní pozastavení letů. Podle FBI komunikační potíže nezpůsobil kybernetický útok",
+"u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORmlXbDBjaDZ0ZGRSRXlYQTFEVXJNOTZTUjBtX3Y0Qk5xYXU5THR0VEc3RXc1c0UyUkM1ZFNIVWQyengxWkNUZjhoaHNTSDVKOFc3czdSUUozSzVucWlvcEVOOTFXTnlZcm5mTVhOR1IxXzJDV3YzaHp3R3VYa05ibTJoMDdnYXlkUkZCSkdkWGFEUGdPeDkyTmZuRC1wNFJMd1hRZndzc1hscDlmcW94SWhVdndXdlJlQV9R?oc=5",
+"s": "iROZHLAS",
+"d": "2026-11-13T21:30:00Z",
+"k": "USA"
+},
+{
+"t": "Letecký kolaps v USA: FAA vyhlásila celostátní stop kvůli selhání radarů a komunikace",
+"u": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPUjAwWTU5b0tOZjA5VGR4WElIZTBKbnNfTGh4S3ZHMDBaWnlIb2xFZDE4d3A0R1NUa19SRVJmWmthMjhoZnVqektnVnpjNjduSlF6N1ZVdUNKOVVJZlFTN25FM3RXV1c2X0JHR3BXdzQzdkFkV1NDOHUxdVI2dFJxRnM1UGk0dWZWREhNNFh6aXN3dU5UUnNmSDRXeWFiMXBDYy1JM25jTjlaZ2l3YjEwTm9GZDg2NmVHTlpwU0UtWUktcTg3bWFRMUVDNzcxWFNkc3RrT2hIb2dmTHA2eGsxVFo4SXhlUW9hcHc?oc=5",
+"s": "iDNES.cz",
+"d": "2026-11-13T21:29:00Z",
+"k": "USA"
+},
+{
+"t": "Federální úřad pro letectví USA vyhlásil celonárodní pozastavení odletů",
+"u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBmTF9oVF9pWi1Bdnh6Z1ZSUGNXVHJnMUFIZXRIcFpmSklMN2x5dVlFZmZFWUk1RVdya0F4bnY2WnJFODgyT1BTcw?oc=5",
+"s": "Deník N",
+"d": "2026-11-13T21:27:51Z",
+"k": "USA"
+},
+{
+"t": "Po střetu s tankerem se v USA částečně potopila výletní loď plná lidí",
+"u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdHE0WklkLVZMYnJpc0h6WEE3R055VUwwM0RMNVF3NUZjU0xuN0hlVkMwZ2JTalB5UlZ2ZjZ4RFNwZGtFLVNRcTMwaGNKQzZGeTZFaFRxc1ZKMjdiUnhRTlBIV0FyY0F1a0l5dzMwN2p2VnhUSExGZXRZWmxUYmJ6MG9uTjJra1hianFWWFJRalZOQ1JlVFFNWkdCaWQ1a1VKUHE5aUdjWVZYQmtNNFBJenhVclRkOUZDbnZKMFdfNXRhZ3N0a09PY2c2RjZENmZo?oc=5",
+"s": "iDNES.cz",
+"d": "2026-11-13T21:23:00Z",
+"k": "USA"
+},
+{
+"t": "Federální úřad pro letectví USA vyhlásil celonárodní pozastavení letů",
+"u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTR6WDY2ZjgxaUtTc21qcXJnQmF2NHVEQlZZaWtfYkplZFJOSGlOVEpnaVVQc1hGQXRJM1RtNjA2LUlhZllLS1E0NXRtdXNrVkNBc2RoNjZJMlVraDU5SkhkR2lXX09kTzFmeU9hc1V2azE5eGVTUTNJdGQtRUxSOEhrZXc5U05XSmhBemJCTndNX21MWHZSeDNyaENWQVZJRXFJNlZyd3ZIQ0lDQkxCc19JUUlMMV9HQVo3WjJ3UQ?oc=5",
+"s": "Seznam Zprávy",
+"d": "2026-11-13T21:22:04Z",
+"k": "USA"
+},
+{
+"t": "Spojené státy pozastavily všechny lety, hlásí bezpečnostní incident",
+"u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQWhkQ0x2Y0dHNkRrajZ4bVhtOTNBZ3dxXzVNcW1BVDdvWW1kbjZQX3dqV1M3LVdpT2NLUGRJY1BRX1FyX1E5ck51QTlpLThBQTlEdTRRY2NkVUc5TW9qWEhOaXBaVzF2bXd2M0dNMFM0UU00Z05Uc0xlOTktQVliVFB5SEdBSkNYUlNhaWhjUElRT3dTc3p4LU5ETVVtOExvV2V3VFlOV0FXM0RRZjN6VUZ4SVZIVF9iN2NlREU5VzBkY0xsb1R0QzlzTjhyRTFLbU1lVjhB?oc=5",
+"s": "Aktuálně.cz",
+"d": "2026-11-13T21:21:00Z",
+"k": "USA"
+},
+{
+"t": "V USA se zastavily všechny lety. FAA uvádí bezpečnostní důvody",
+"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNjhydjcyOWV6cHlNTGo2SzFrc0xEWUFJRGhuUHN5T0xzZkxjR0Z2ejVFRl9DZW01aGV0dk9sOU5IMENoMzZHbl9ROWlRbXNneURtWjI3X3dtbFVKOFpuTWtBZUd0OEEwSVNJUUh4R0FfSTFoNDFlQ0R2aFpmLXJEMlBGQkQzS2F1clJNblphUUFUMTdjelZfd1dDdWhZSjVtcEptSzNsTzQ?oc=5",
+"s": "Blesk.cz",
+"d": "2026-11-13T21:21:00Z",
+"k": "USA"
+},
+{
+"t": "Všechny lety v USA jsou až do odvolání uzemněny",
+"u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEFpblR4S2RJVVhRRzR6TW1JRFA5Y1RReHNFd09JUHN6ZHpsQzVfdmI2d0NseUtRblFvVlZEaEkwVG1HNER1RW9UdmxoQjVVMngwd2VNRXFFTG9EdXMwdDlXSzUzb0VubmNtaGtSLTd6alFNSm9jenpUTUdrcXQ5MjFlRkxITzlELURzdjFpakl3bXVwX0dzRmVfSlhiWUZKZWh5Ynh6QkE?oc=5",
+"s": "Novinky",
+"d": "2026-11-13T21:18:12Z",
+"k": "USA"
+},
+{
+"t": "Pochettino se neubránil slzám. Těžké rozhodnutí, řekl o opuštění USA kvůli United",
+"u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHJZeTAzVkZxNjdKVXExMmNLWUgzb2RCM3lDeDBGVU93NHFzbDNwaTd5SFpXXzY2S01iNGp4VXdUc1l5VWJIMTcyeEFoODgyZjU3cDF1V192eDZUVHRqdHJ2MFpoZDFjQU55b0oyZXM0UTVBMUlDblg1MnFwekVGMmg1R3hPYnFMWE9xNk9XeWlNTGtDOWNyZnZ3SVEtMWNiOV9IQWR2SmJOT1VLX0hnT0pUR0lBSXQ1R2dGSw?oc=5",
+"s": "Eurofotbal",
+"d": "2026-11-13T20:34:58Z",
+"k": "USA"
+},
+{
+"t": "V USA je zákaz prodeje čínských aut stále silnější. Čeká to samé i Evropu?",
+"u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd2JIdUFfeEFsdUlYLWFuUEo4RURLNm96SWdwYmpqQjZwUTJDcllPWHdScFhSQ0dxb3lPZ3RjZTZlUUNwZGVKV0xNZkh1X2dNWXdMczUtenVvcGkyRldVcXJ4NWtITHZ1djlJZHRNQTNRQzVFQXlvRjZVbmM4ckx4WkpaOVhobGdGTEpESnUzR3dPUHJscklRQU9TNUs0RUQ2alc2T1VPbDkxdUY5SXhwdktoVGQ?oc=5",
+"s": "Seznam",
+"d": "2026-11-13T20:18:34Z",
+"k": "USA"
+},
+{
+"t": "Člověk v tísni expanduje do USA. Otevře tam první pobočku",
+"u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbE1qM3EtR18xLWJnNkVlWmFtdktsa1VxdDFUSEpuQUJUZ0JBSm52dHhDd2lOMnl6MTdjLVFReXVkYk1BbnA4anAxbG96d25fU0I5eThuRHJtaS03RG9MLUhfMFZNRDZnMExXQ2FsQzFYN1JUc0pGLVpLTFdKNmw1OXRfSWxjVjhCVjhpVg?oc=5",
+"s": "Echo24",
+"d": "2026-11-13T19:21:00Z",
+"k": "USA"
+},
+{
+"t": "Kanada: Síla přírody online ke zhlédnutí",
+"u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIUk5qXzZDUDMxUE5nUGFJcXF5Yi1zQzBxVWRnWUdEeHJkWHphYlpzZEVGaHJkYnB0bGhOMWJTYXM4N1NMSlB4NzBPeElmUVlFVWtYb2QtSG9MTERQd3dXc3NITDlRNjQ?oc=5",
+"s": "Prima+",
+"d": "2026-11-13T19:17:59Z",
+"k": "Kanada"
+},
+{
+"t": "Chuck Norris ve scéně, kterou fanoušci milují, jeden kop, jeden granát a hláška, která se nezapomíná",
+"u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTG1GSFJ6Q0Jfam1GTG5BalUtd0M4WF9kOVI4b0I2UzhXSWpzOTFQZi1nckppVnFZa2J6OUl4Sm4wYm1xb1hhN2FTcHJHQzJkUEYxd0FFRmxSdHFPTjJSbjRESjFnZEpFM2FxQ2ZGU1YwRGlWWWs0VmFsTnpHeHpteEtvM0VhVzNUSF9oRWc2QXA1WWExVTJDWGlvQWtpdmw4SVdnVlRoV3NTRV96UXpLd2xDQk00bUJmMWVlU25sZTk?oc=5",
+"s": "Filmožrouti.cz",
+"d": "2026-11-13T18:51:22Z",
+"k": "USA"
+},
+{
+"t": "Velvyslanec USA ocenil úroveň výcviku českých policistů",
+"u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZWQ2T3NpRE9JeHRRTHQ1S3ZJU2hwRkttY3J3dWlwODhjckE0NlFJdkZMNGRERmJUVU0zSlFVZHVRenBrcjhabzZZYk1CV29PcXFaTGExTVhzTWJzOUJBU3BxN19pMzFVR0haTlJ4WExyZjFIaTV1ZWRfaVV5WmpxMnFtVGVaRWVQNUFMcGFndFZEUVFKNjZz?oc=5",
+"s": "Policie České republiky",
+"d": "2026-11-13T18:45:24Z",
+"k": "USA"
+},
+{
+"t": "Češky se ve čtvrtfinále nedaly lacino. Postupuje však Kanada",
+"u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYWtURUM4RlA3by11ZVlGMXpadkNQc3hXR0tLQndVOU5EMEgtWFB6aUV2dFowdVpOUU0tQUJadjNyS0V1TEpaUVJaYTFSQU5pOWh3Wld2RUVpeDdXdWtWNDVZajhQYllsV0Z1NHl4VHp5RGhzbTFMUE9BdjBERzRjUFFSOGNBNm1uTUVPM1BJWnJLdThXVGJzTEtLWWxwd1dBZG41N0NoRkVnblhKTVZSQnJXYw?oc=5",
+"s": "ČT sport",
+"d": "2026-11-13T17:50:39Z",
+"k": "Kanada"
+},
+{
+"t": "Šéf Mossadu jedná v USA o Íránu, Izrael naléhá na obnovení úderů, uvádějí média",
+"u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUmd5cHIzQmgtRXg1RF9oOTJkVXEzRHExS2ZWendrWTQwTEFqQUd0UnhWUkpUOHVxS2ktclc3RDVpVUJldHk5YmtvU3lTYncyczh5VUlFMW9XU3RxeWg5V2RXd2U3cnVCLVVJNHp2blB0NFBxbHB5ZHFwSll4MHJhUjhZNGJ6MkY4WWpHNTF6RnBGd29VMmJLZWk4RVRPdUpTYzFfM2Rtd2toLS1rbDJpczdoS09CRGQwYTZYZ2hTWVB0cmtlNjhlTHF6Yjg?oc=5",
+"s": "Seznam Zprávy",
+"d": "2026-11-13T17:30:45Z",
+"k": "USA"
+},
+{
+"t": "Záznam utkání Kanada – Česko",
+"u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1jZ1ZiOFhYYU9Qcm1FcmRWOGh2ZmhOZURzRlJmcklfeExxQXprUl9Ud0tsYVlxT1NDNDc2bGtVYkZlYkNJNDdHanRpRzNOUUxicGVpOGNkSEpLYTFQMjg0X1N1X1gwYm94LS00czR6aDZyU0RWRzZ2Tk9B?oc=5",
+"s": "ČT sport",
+"d": "2026-11-13T17:21:46Z",
+"k": "Kanada"
+},
+{
+"t": "Forex: Dolar na závěr týdne roste ke koši měn kvůli očekávání vyšších sazeb v USA",
+"u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaWFJaXotYWFpNU5tQ0VhRGpCLXhpR2Z0dHk2TjZFMDczeU1SMlRWY0VQRGpqT0hOWlA2UGVnNTFrSHhJSXpxMTVzRmtVNllsTjUzVnJUeGs1Wm9pcmxTMmJudWFvSldXNzdwN2czWm1qakJhMmVKNE5PTTZvcEpodEhfNFc1WjY2OXFzcGRiVUtEVXU2SGhIR2FoNHBCQlpCbndQTE9rZjJKSW11QkE?oc=5",
+"s": "FXstreet.cz",
+"d": "2026-11-13T17:10:00Z",
+"k": "USA"
+},
+{
+"t": "Nákupní centra v USA se mění. Tradiční obchody střídají posilovny či kosmetika",
+"u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcmFqdlFLM1hJaXVMaHVxdE9EczZPaFEwelpfcjZtdTgyUUpJRUdIMFVhLUdTcnkyVzN1Ry1XUkRKTVZMRElQTFBQcnV0c18wZTFFM0VFb1FCRWh0SG5pVVhITVEwTUFURFBzRkN5RDFMenJPWFliVDFYVjFoaFNLSUtNR1FPM2JvU0RBMktxTWl4QV9HSXBrOXZ0ZUltMGhpdkNUUGtJbE83YXZPVkpzNWdQeE9PSDdHQ3laMWF1eUFRSFJrSkpvU2MtTGlrR2ktTXN6R1NDdFpiVkpXRk9BeWZR?oc=5",
+"s": "iDNES.cz",
+"d": "2026-11-13T17:00:00Z",
+"k": "USA"
+},
+{
+"t": "Pochettino se slzami v očích potvrdil Manchester United. Jeho starty na Chelsea i v Tottenhamu ale byly pomalé",
+"u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbFNPTlZNVXJqa1dnU2Q4UXFVeF9vOGdQcy00S19BMFRTd2ZYajBpdTNSMkF4ZGZsTjg4emc2MVA0aE9OUzJsQTU4U3J1b0prMWdlRTVDM2gxODAyd2NTU3FueUJUNGh4dVZOR0ZGenhKZWxvYmxQaVdSQ3B5YW5DTjA1UThOcTF2R3NOQmlTU0NIMjdMNnJ4ZVdUblB4REhWc1poaVE5MzlpcEZaMHZKX1BwLXJKdGVjQVBGMw?oc=5",
+"s": "FotbalPortal.cz",
+"d": "2026-11-13T17:00:00Z",
+"k": "USA"
+},
+{
+"t": "Sen o medaili zhatila Kanada. Hokejistky ve čtvrtfinále MS padly o gól",
+"u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPamlTWGtzVXFkSUtyWHZ6RzVnSkZWTHIyM19FdWxIb2cySjlMVHJyRVJmS0hMUVhMU1RrMVV6dGo5d0o0WFJkMEk3U2duS01pV2tvdnVWbm5hNkMtQ2dHZ3RHRGIzMldjRFppaVd1ZVBqLUVLNGdTOENsWmZqb2x0R2gwYXBEUW8tSU9VVkdaanpNa1oyWVQtazJ1TnEwUQ?oc=5",
+"s": "Deník.cz",
+"d": "2026-11-13T16:58:14Z",
+"k": "Kanada"
+},
+{
+"t": "Lidé se zbytečně bojí aut z USA. Nákup i servis jsou jednodušší, než si myslí",
+"u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaE5ub0QtOWpxdUVMeG9zaGxCTEx2ejNwNElHbHJFLUFCMXg3b3NubTlMVlpNZmY1VU1VVF8tcWV1S2UtUl9DMG5zUEJOZjFjbkVJSHJrWEVtb1o4eHFabHYydVJzSW9Sd3VXMlVMM1E0MUh4c0dEamUwbjhQREw3RWRlWUhacjlXNmFOSzUtNEpnSmVMTEREazh4Wjk1azBYME43Q1ptY3NtVVJJdmR6amlINXRoOWRsTnh0QXVockc5aFk?oc=5",
+"s": "Stream.cz",
+"d": "2026-11-13T16:50:19Z",
+"k": "USA"
+},
+{
+"t": "Kaltounková dvakrát skórovala. Češky přesto na MS končí",
+"u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcTJTa1k4bDZXZzFycWdFdUdlSzAzRGdVei1Bc09qRUM1cTVBXzhTVzNDcFdzMFJiR0phNlhIU0FIS3hhcXpPdENDSXQzdm9rV2ZMSVFyRjk4cG9mM0VqOHlDLXkwVTJvRTJtbk1UZXJGX0NfWFM4WGlDaXE0RGViSzZuWUs3bGhibnBRdG9KanlmZ2F3QlFnMTh0cklXZFBRWFMteFpFTXFnZUpNb0I5NzBLTFlINU1yd2ZNSElDdUJnN3ZfQmh2NUhCSmJaRjcwWTdj?oc=5",
+"s": "iSport.cz",
+"d": "2026-11-13T16:40:00Z",
+"k": "Kanada"
+},
+{
+"t": "Výrobní ceny v USA v říjnu meziročně vzrostly o 6,5 pct., nejvýše od roku 2022",
+"u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSC1jMnhuWUFlZkRBX2NkOEZTcFkxanp2aG8zMzRJSWRWb0hsOTVsclVRY2lTT3pIUHdpNy1iNThRU2pUazQ3cVNsaFBjX0ZyWmpBTmxyaHNoc3p3aUNJQ3JET3JpbTl1ZDc3SGlld0FGdW56b0ZUNkpuTm03UlJTTk9uMDgyZUlKdzBaM1o4RXJuOEE1NG94RDFQLXdQSnYxdUZ1cWliYw?oc=5",
+"s": "FXstreet.cz",
+"d": "2026-11-13T16:10:00Z",
+"k": "USA"
+},
+{
+"t": "Hokejistky ve čtvrtfinále MS vzdorovaly Kanadě, prohrály 2:3",
+"u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRzFSeHlQWDBiT2dqaXdnOWt1SXBweWlDWmdSRWhjRmFlMUlIWkw3V05rTE9XZXJicERSby1fRzVSOFpRVjA2ZjJoc0U3ZU1UYUs0OUdTRlIxVi1RNjZ3bE5BaF9hcXdMcENDc3VFQ2dnbmhOd3JtOWtBNkhSR20xbGhhRFhRRTI3WTdaUDN5WXlEaXluRy1tVGt6M2Ffci1jYUE?oc=5",
+"s": "České noviny",
+"d": "2026-11-13T15:38:00Z",
+"k": "Kanada"
+},
+{
+"t": "Hokej Online: Kanada - Česko 3:2, Mistrovství světa žen",
 "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01SVhnbGh1enVodnBacHU5ZzEyWE9tQUdwOFQzTzliSW40YmtTdzdDaldpbDRfNU53RDRLV3pHbzMzLTc0OW92clRzS0o5aU8tWUdrbHM0VkxnZ1A1UWlEYUNpNnZaQQ?oc=5",
 "s": "iDNES.cz",
-"d": "2026-11-13T12:10:05Z",
+"d": "2026-11-13T14:00:00Z",
 "k": "Kanada"
 },
 {
@@ -126,13 +266,6 @@
 "s": "Nastartu",
 "d": "2026-11-13T12:06:00Z",
 "k": "Kanada"
-},
-{
-"t": "USA ukázaly tajný čínský raketoplán. Na oběžné dráze vypouští záhadné objekty",
-"u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeXVFQlZfY0F3TzE3WWJMd2p3ZjZjVGhWQkZXLTROTGM0Y2NmZUViOUktRWVIZm40M3hpejUxa3I3YXBGQWRPUmN2OHRBQ2FBS2NZdkFrYTRCYlRxOHljdFh1bGN5dTdTTHEtNi1nSGVEc1BvcEgtUjUtR0hWRklYQ1FzcnNuZ3lnSXQ4TFg1YVZiTU9HSlJ6TzBmY2RwT29kcWYw?oc=5",
-"s": "FoneTech.cz",
-"d": "2026-11-13T11:29:15Z",
-"k": "USA"
 },
 {
 "t": "Rusko mění strategii a mluví o nacismu. Zaplaťte, chce Treťjak od Kanady a Německa kompenzaci",
@@ -149,34 +282,6 @@
 "k": "Kanada"
 },
 {
-"t": "Trump pomohl Rusku zdvojnásobit export nafty. USA ale žádnou nedostaly",
-"u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYXFpQVA5S0thenJmSmswMl85X0dLbk1ES1BHUVY3YmhYT1ZtZURmOTdia1FPZFQ5YkJHNWctYnZMX1Y3TXNiY0x5cFlEZWh0TE10Z1AzTkc5cTJFUDcxY1poWmtNT3NUc2ViTkdlMVJ3ZFNDSHh6SnZpclBMZG9ZSGQ1OVNyMkM5anI4S1NSSng2M1FfRDBMVzNXRHhQRHBNVWpEZ0txNGlkQWQtZERDUnVUZWVqUGlFVnc?oc=5",
-"s": "Novinky",
-"d": "2026-11-13T09:55:41Z",
-"k": "USA"
-},
-{
-"t": "USA proti Kubě? ‚Chci se s ní vypořádat, než odejdu,‘ prohlásil prezident Trump a zmínil ministra Rubia",
-"u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPck9OQ2lsUVAyckt3QzJXdVhucTYyX2N0V3NXRUVySW5Jam9QVy0wRi1fQUI1d3h6U2VMenBxbDQ4U1o2TzZTMG9waDVsb0Jqd1V0OE1rSVVBM1VoenA5T3UzOVpPc0Nrb3FWQXJVbEZ2UkZ6VXo2empuVUthRld2VktROEZ5UkhKZ3pLb01kRENvXzBXWUgwUVg1UG5ydlQ2YnJ6WkpKbHpSUG5zcDZrb1phZ05uZGZSWHVLRi01aWdwZ0pEN0E?oc=5",
-"s": "iROZHLAS",
-"d": "2026-11-13T09:40:00Z",
-"k": "USA"
-},
-{
-"t": "Evropa se chystá na hovory o vlastní budoucnosti",
-"u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSVpkM0tkV2hETEMzNE1QRFd6aUdnT1R3cUk3X2xFUmFKWWhxdldjdFZMTng2LUxFSWh3UHZhamtfSGVEaGFCaFk1bXVQcnV1YjVoSHQ3VGdCVU84RndCUVNZcUZYRzh2M2pibHNHcTVMU2Q5cV8xY0RJZDYzN2YtMTl4akZfVjdU?oc=5",
-"s": "RESPEKT",
-"d": "2026-11-13T09:05:51Z",
-"k": "USA"
-},
-{
-"t": "Demokraté hledají nové vedení Senátu USA. Stará garda čelí kritice",
-"u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPanlwdl9Da1N3azJwRmNoX0VJdTdRdnV2WjJ0SlpBTWk3YjFzUlJ3cDJ4VUJ2YkFYSFRsMXNkVk9fVHR5TUZTMXI3RTBKYkYtblVBclBYdUJXbWR5elpaZ0Q4ZFByV09tVFVKa2ZyWnhWZUoxR05BVkxaM2kzTFNMSlA5UlRRNkRGLUxFZk1waVNCNlVKeXlHU1FUQWNIeDlmRk9FSmxtWG85WHFJcXgyLUp4M1c?oc=5",
-"s": "ČT24",
-"d": "2026-11-13T09:01:02Z",
-"k": "USA"
-},
-{
 "t": "Česko - Kanada | HOKEJ ONLINE: Čtvrtfinále MS žen 2026",
 "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOXJLRVJQa3Z1N2h0bERSaWwzOGlOOG1tbG55QU50anNUQUs3Wkw2YnRTbkFtM3FqSmRlRExNQU5zRVZVQ0J5TWdIZDNxUnNtdkdDcWZhRUJnMDFjbGk2eWlrbFAyWEpiTF91em9NMFVydXRWMmF0Yk9kMUpGWnBhdUlPbmlMbElvb0s1OWVjZw?oc=5",
 "s": "Sport.cz",
@@ -191,39 +296,11 @@
 "k": "Kanada"
 },
 {
-"t": "Americké indexy pod tíhou Nvidie",
-"u": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NWXdvMk4yZXV2NFFLdk1qMjF0cGtIZ1REZFdCYzdnT3BoSVA5VUNuM3RHTEdkQXVjdWRXM19qMDhJYURJbkZkNjBqOW80Q2FvZERCcXZ5VFZjbzI1ekhtamdNNUpIcnlKWGkxSTc2V0tpUQ?oc=5",
-"s": "Zprávy Kurzy.cz",
-"d": "2026-11-13T08:34:39Z",
-"k": "USA"
-},
-{
 "t": "Kanaďané budou v Davis Cupu proti českým tenistům bez Shapovalova a Dialla",
-"u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTnlTYjlJenpfZUE2UnQxZDUxeTV5NTBUeGZrTzVlQk5zN2lIc1ZYdzg0dGlBeWd2SFNsVEpOY2pzZ2RtZ3ItT0JGVUhpVGNxZ3hVVXpZeGFTdUlqOVhJZ1c4dkZFVDBiZHI1UFRCMEE0eTJnQUI1dzl0OEVsVnBILWIzTnpETE90dTVMMmF0aDRjeDZMSWJfT180ZzRWSnl4UC1fMlNJa0Z1dVQ2dnJXUDBFLU8yZ00?oc=5",
+"u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzV25fbGhiTWpQM1JPZTUwMjRXdGtMRWhjWW41Tlk0MUUyVmg4TktROS1LZ1RUejl1eFA4c2UyeDBXRjVYZWZORktCSWplUmR0ZXhV?oc=5",
 "s": "České noviny",
 "d": "2026-11-13T08:25:00Z",
 "k": "Kanada"
-},
-{
-"t": "Ekonomický kalendář: Do popředí se dostává inflace PPI v USA. Co přinese dnešní obchodní seance",
-"u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01WmQtQWtaZkViMG42TGpiOGlwMV80ZG01Q2NXT1hsQnJUQnJYQXRzR3FQTHlpbjluY05IM3N3eVlLWGlVS3lzMEpmSEdHbXh2ZlBiTjd1MFZMZ0pKVmc?oc=5",
-"s": "FXstreet.cz",
-"d": "2026-11-13T08:04:00Z",
-"k": "USA"
-},
-{
-"t": "Očekávané události: HDP, zaměstnanost, obchodní bilance (eurozóna), index výrobních cen (USA)",
-"u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE03bGZOTjNpVHNscmZsTWhvQk5sYkNXamFCdXZFU2lTVXZHRmhhR280X0NSVDV4UzZWMzV1ZkI5MDRfajE4eEZfWkMwVVR5aTBWWkl0dVVmWEQ0djB3NkE?oc=5",
-"s": "FXstreet.cz",
-"d": "2026-11-13T08:01:00Z",
-"k": "USA"
-},
-{
-"t": "Evropa bude u příštích jednání mezi Moskvou a Kyjevem, uvedly Ukrajina a USA",
-"u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNekhVc1hpNkNCN0pKMTBDWFdkRTI3dUNpbHFwanJreGp1YkEwaDlHMFRFV3RIOTNKbVNENnBVdS1IeU1Yd0cwWkU3bGtXNURzMXBKR3lqZk5CU1JYbDRPQWNNeHIzSWc5bkNVMExHX3ItU3RYVFY2d3NWYms5aHNldENMRVBSVnhueHVnX0dhX3ZGVzEyblY0MzFWZ29DTElGeFlIalZzMHNqZDJzd1kyZ0dfQWtMdDV6R1dMZ3cxYVg?oc=5",
-"s": "TN.cz",
-"d": "2026-11-13T07:22:00Z",
-"k": "USA"
 },
 {
 "t": "Od domorodých tradic po Titanik. Halifax ukazuje méně známou tvář Kanady",
@@ -233,55 +310,6 @@
 "k": "Kanada"
 },
 {
-"t": "Další GTA se může odehrávat mimo USA",
-"u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56dUhKOGM5bHl5amk3SmtsWWFic3ZfU0VDZENRTjNxU0Y2dGxEbkQ2N2RrcDAxb0Ztc25FczRpZGhwZ216TWIyLUl0TzNnbzk2bTJwZlZOQ0MtaEd0Y0RDOVdkUnhwNVlIY0E?oc=5",
-"s": "GAME PRESS",
-"d": "2026-11-13T06:49:37Z",
-"k": "USA"
-},
-{
-"t": "Proti teroristům se nevyjednává. Reaganovo pokrytectví odhalila aféra, v níž USA tajně obchodovaly s Íránem",
-"u": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTHF2MElwQ3pTVm5oLXA4SGNVOTlOUm1BdnR4T0p5YzctQkd3RUJWakhyMFRERFp6LWJNdmppZFZIclk0RVpuNXNzSzc2bmduNUlVemVzOHFUOGtrejBzSzI4QjhnT25aUUJkVVJCaG8zT0Noamd2czJNNmQ0enVqelFaM0ZaSTdIZGNibmtjTGZWWElWT0lqUXRrUVdxa21NVHdSc29jdUZEbHVMcEI3WS1xRDRaWDZEMGhIa25UWkdJSkRGQ1RjWEdsU01XUDdaTnJKYVU0M3ltMmZOY2ZST3phQnprWHRuTWZj?oc=5",
-"s": "Reflex.cz",
-"d": "2026-11-13T06:00:00Z",
-"k": "USA"
-},
-{
-"t": "Binance uhradila ztrátu, USA zabavily 1,2 miliardy dolarů",
-"u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblFvd09rNHAyZHNtTjNpRG5MaGNYWUE2TGExM25QaUdXdnFNcHdjNFpyUFZhX3hHcXFvTWRxMm1nNVRyY1ptTHo1S1BxV0l5YV8yZk5rcEFtMWZVWDFRN1JhV3g1SzBzb1hwUnpNaldUZnFEWFBHdjNlaUl2MEJZZldHYWxIaWJDS2hXVS13?oc=5",
-"s": "Kryptonovinky.cz",
-"d": "2026-11-13T05:53:24Z",
-"k": "USA"
-},
-{
-"t": "Íránské gardy tvrdí, že zničily americký radar v Bahrajnu. USA se zatím nevyjádřily",
-"u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdHV5d3hKV1JZTWlFdFhUa2JQT25PYjZQMDFEMFBqMFFPOTU1eDZ6V3F6YWswbXRkM0Z0bmEtNGI2bElYdHpGWFFpWkUwT1FjUDBidk1RQkVJWkdkTFd3R3E5SjdWcTkzbWlnMTF0RDdFSFZqQk1fekg0a1R4OXlVdlF5VzcwSnhydWVxdnowU2tKZDhZNHFJdkNEQldBNk9LY2t1T01jdzRJZUhzYzYtSk1DRFVzX0hJNXFROEU0dTFpNWc?oc=5",
-"s": "iDNES.cz",
-"d": "2026-11-13T05:30:00Z",
-"k": "USA"
-},
-{
-"t": "ONLINE: Kanada - Česko 3:1. Hokejistky se pokouší o zázrak, favoritky odskakují",
-"u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcTJTa1k4bDZXZzFycWdFdUdlSzAzRGdVei1Bc09qRUM1cTVBXzhTVzNDcFdzMFJiR0phNlhIU0FIS3hhcXpPdENDSXQzdm9rV2ZMSVFyRjk4cG9mM0VqOHlDLXkwVTJvRTJtbk1UZXJGX0NfWFM4WGlDaXE0RGViSzZuWUs3bGhibnBRdG9KanlmZ2F3QlFnMTh0cklXZFBRWFMteFpFTXFnZUpNb0I5NzBLTFlINU1yd2ZNSElDdUJnN3ZfQmh2NUhCSmJaRjcwWTdj?oc=5",
-"s": "iSport.cz",
-"d": "2026-11-13T04:01:35Z",
-"k": "Kanada"
-},
-{
-"t": "Šest F-16 do Šiauliai, dva prapory USA do Pabradė. Litva posiluje",
-"u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFdXQ1VtMGxTc0IxSHloVGVfVjRleWU2U08zSzFHakIxQl92NUJWNGJUTU1FTW5rRzJpaXY1WUUtYjgzODlSZkdUUElweHJvX29QdnhoLW1IU1RRYk83bTJBb1IxWThkcGl2Zll5M1IyS2VzZGxqc2JZXzh5YUJMZ3h6ZGhOZkE0SGdkaTQtcWljOFdheTRDbE5OeXRRc2c1WkE?oc=5",
-"s": "Centrum.cz",
-"d": "2026-11-13T03:35:00Z",
-"k": "USA"
-},
-{
-"t": "Zelenskyj v Dublinu vyzval k pozornosti při jednáních USA a Ruska o bezpečnosti",
-"u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeWV6eFlaY3FUMWVtekowTjFFZHBzUGcwUjVibndqWlU4QldGQ1N3ZnVHT1hLOU9jcnpTZGlIYjY1eWZnNzk0VFRTUU1MazZMMWp0eUwtUHpzdV9McmVzc1lRalB3M2VJdlBCSlBvVGdkVlliMkFzeVd2bzU5LXhVSG5pNG9xZ29TeEdrQzZaVW1NQnBYc1ByaU5LTUxjLVBFZTdIYmNUVVh5ZmQ4RmxuOFlB?oc=5",
-"s": "Tiscali.cz",
-"d": "2026-11-13T01:33:03Z",
-"k": "USA"
-},
-{
 "t": "Nešťastný den? Kdepak! 5 nejlepších hráčů v historii NHL, kteří se narodili v pátek třináctého",
 "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbXBkRGlVVGh4S09VbFM5anBXRHEyRmRiTFJURkxablNiZlBwaGtPN09zWi1jVXNUZzlUT2lfejhPZDNCWFU4V3hCa19YMHVvWEprbEpTYXNTeFBGZVVzSlZnWm1sTkl4cXBfWEc1YzhiVlpmVUdmN2hDOU5VbWNXYkFYZkxGNm5EZlRNYjBOc255YTJjdy0zODNRSjQyYzRRZnJTdk1ocDJpZlNFVk43ek4tRFBaQ3lDNm5nUmZkYUQxdWM3?oc=5",
 "s": "SportRevue.cz",
@@ -289,17 +317,17 @@
 "k": "Kanada"
 },
 {
-"t": "Ministr financí USA se kvůli hrozbám z Íránu stěhuje na vojenskou základnu",
-"u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa05hUGJoU1RuUGdKa3NnQ3dJVTRwOC1oTC1RQ2ktVHVhSE1nc0Q2THBTQ1BnV25FcmJCS2pPTWItaGNQRHVRd1V1eHFNbV9XaFdFNHZ2a0VqWXFiUVBua05lTnJ5a2dqUEhucUVsOG0zNC1RanFFM0U4MkZsMUVJdUJGVm5mNWoxbXFvSFZuMnRMRHVUS1A3TWxTWVVLRXlFQVVrRThsNjRMNllr?oc=5",
-"s": "Britské listy",
-"d": "2026-11-13T00:02:57Z",
-"k": "USA"
-},
-{
 "t": "Ruští sportovci nesmí do Finska, rozhodla vláda. Kanada nepustí ruské hokejisty na MS juniorů",
 "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmxOeTRRU1IxMEtFT3ZOaC0wVTUxZ0Zxckg3QndrMG0xTG9Xa0xGMXdNRU1JQTJ6c3duQ3BhNHB6OTIycHpXRnZnVGRqSEx6cGZ5NXFxQ3lYZHlXOUE0dVdUN3lURjE2M0Fsc2M0WjM1QVdycC1MR0VOVU8xUXpMaVp4UlpwcThlNmx3ZS1wOE1JMFVTMXlNb1liZFNRcDFjY0ctdG93ODl3ZEVsclJ1SThhSnY2Z0wwcVE?oc=5",
 "s": "Echo24",
 "d": "2026-11-12T20:52:00Z",
+"k": "Kanada"
+},
+{
+"t": "Kanada - Česko - MS v ledním hokeji žen 2026 Dánsko",
+"u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR1NiOE9Gc2RpUUstMnpaSzI4RTZfRzEwaWY0ZklBT0lGMjVqU1hNekxPcjJUQjFoS0FpTHRMdFh1NElrWHFlWVkyNUM4Uk53d2R4emVFWng5M05LcnN0SV80TDdicWlrN1QxUnA2dFF5RTgtdGxvNEdjRS0tMGx4dzQ3dDNEUTFPb1ljVWw1bGNDV2QtTkhaRWc2TGUtOWVW?oc=5",
+"s": "Česká televize",
+"d": "2026-11-12T18:01:30Z",
 "k": "Kanada"
 },
 {
@@ -331,13 +359,6 @@
 "k": "Kanada"
 },
 {
-"t": "Mistrovství juniorů zrušte. Bývalý šéf IIHF kritizuje Kanadu a opět stojí za Ruskem",
-"u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS0szRzVzSUE0WkZBSmFBSHVqUFU5MzlVRmQ1QXFObmZYQ1JMclh0SzNsdC1uTDNOa2xGLWZpS3NUcURLRmZvYTFBTl9MNXJtY0pxcW5hOExjSkZBTVExaHd6Y2NNREp5OW9Wd0ZRRnRuQXpXZWtxVmlIckltWUprWkJTUHFOOU9PNm1hTWdtVC1MQzVTRlBLcWpCVW1rUnUzS1dzQ2FZcTRKTjc5bEZ5dg?oc=5",
-"s": "iDNES.cz",
-"d": "2026-11-12T14:05:00Z",
-"k": "Kanada"
-},
-{
 "t": "Rusové spílají Kanadě kvůli vízům pro hokejisty",
 "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZEhmVnN6cmNmX1FtZkZBakxmYllKVThFNG5qTjVTTFdKTzBFeUQ5MEVjdFJmanZwVlVkQm14WF9idjM2SzdmZkk5aGtQVDZzR2QzNzZuenowRGRzTWN1YWpiYTJOcmV0Sko5Ni1wVjdvRWR4R3NXQVVmZ0F0UWZLc1ppa2FBUjJVbVlBUlRuT3MxSlpFeWtjQ0p0UXpQWFJIVDhpSXQ3XzlsS0dhY2pvcDk5NTQ?oc=5",
 "s": "iDNES.tv",
@@ -366,6 +387,13 @@
 "k": "Kanada"
 },
 {
+"t": "MS v hokeji žen: Kanada – Česko",
+"u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWWJYd3loemNNdUlCdGhIQ3VOekstTmRUS3d5MUZyMVNSdXZnRmh3WXBhckJJdGpDVVhnclkxcHpETjcwVHRGSmg0RGRic3VDUGpjUHdfRmg5N2Y2WEFqTzhSWFNvTUlEamVQX0VucjdyVk1jbHdoVkJJclVfbUxLeW5FQmtUb0IzNUR3TkxINjhrYWFLS0xVa29WR2F5aXdDaklJbFB4d2hPQjZlWHl4VQ?oc=5",
+"s": "ČT sport",
+"d": "2026-11-12T10:01:05Z",
+"k": "Kanada"
+},
+{
 "t": "Kanada zatrhla ruský plán B. Neprojdou ani pod neutrální vlajkou",
 "u": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVW9zbHBJUFFhelNUa3IzMENhZWVCb1A2ajNXTFVXTHVJN2R1eVI3T0lWTFEzZlo4VzBIUWM2cElJWWxuRE1uRmh0Wlk4TlhJQ3NXTUV0UzZvTGRJVmpUU2xMLUF0aU1oeEdLVlpzZEdYWkRZWnVXSmoyU1Jpc0pyNmd4MmktQjVxdjJnWnpYV1p3ZW5QR0lDZW8zTm4wQXBfNWZ5MGFEeGdwdUh3TlpoX0hsU3Zpa0FESnBGV3QzZEJuZHd4NnY5QmJrRUgzZVcxX25JUEtma2F4MHJ0OXVIVVR1dkgtTkFlZVE?oc=5",
 "s": "iSport.cz",
@@ -391,34 +419,6 @@
 "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb1llb0xEcjJLM1dYeXU0ZlRyaEVTcy16b2lDWEFKX21abllwdGxubkpvX3hGclVZX09CTkVrQm15dWdidmJlWkJNdWltaWNfUWhjalVSSnJLYmxiczNMUXZ0U0RoUlFMYUVxZGxyWXFwelJBUmRNYldKX1RTT0toUVdPNFZsa2NjN1pnRVdXa0FQS1ZYdER4WEZxQkV1ZnhaNFZ6b2R1TEF5M1hQMFB0VnhReXpuWHJxQlFyRk0yZw?oc=5",
 "s": "Sport.cz",
 "d": "2026-11-12T08:06:04Z",
-"k": "Kanada"
-},
-{
-"t": "Kanada zakázala ruským hokejistům účast na mistrovství světa juniorů. Nepomohou jim ani platná víza",
-"u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLVF4OGc5MzF4QlAxbXZVQi1jOEYxTG1pZWN4VVpnZzd1dzFYb1g4Z3Y0b2tyYUNjTm1TRkNxQ2I3RW5uczc4dGM0Q0FFNFczcEdVQmdtRlVTaFZVV256SkRyR3FiVEFKZjVHSlVGc1c2b1hJMHg2eGJ3RXhucDZsZ0tPMzN2ckRpUkhDUGVjSXNybEFzbjliY0pRdmwzYXVNVGJITVJyQVZCOXM5ZzVjVlF4WnpiRWFPSGdfUVlQOU4?oc=5",
-"s": "Sports News 24",
-"d": "2026-11-12T08:00:00Z",
-"k": "Kanada"
-},
-{
-"t": "Kanadský státní tajemník pro sport Adam van Koeverden zopakoval, že země neumožní ruským hokejistům účast na nadcházejícím mistrovství světa juniorů",
-"u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NeU9XNi1BYjdMUm1icm1MaWtHaTI3Rk92VE9maXNwZHJDQ0lZM1RoXy15TTQxN1RmT0tSbUJkcEFxdGQwOE02dQ?oc=5",
-"s": "Deník N",
-"d": "2026-11-12T07:52:08Z",
-"k": "Kanada"
-},
-{
-"t": "Ruští junioři mají smůlu. Kanada je na mistrovství světa nepustí",
-"u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOHJ6eGY5NGx3ZzU2djhXNkxJOFN1WnJjakxiVm5seGs0b1BwSzFpMjRBN0VjSFFpc0VFd09BalZHbWtvUi00aUlXZlVnTlFLOElVQVZObEFCQUR4T0otbVMyaUxBbXhrbmJXRzJibTVzZmdKU2w4QlB4ZGRSZVNzeUtjbWxEWGZaa0luWWhPcGpKT2JpVEE?oc=5",
-"s": "Deník.cz",
-"d": "2026-11-12T07:34:20Z",
-"k": "Kanada"
-},
-{
-"t": "V patnácti uhranul. Železný může bojovat o jedničku draftu NHL, zní ze zámoří",
-"u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVF9XcG5iR2F6U2hJNWhWVkxDNHFydmUwYWlXVFh6X2JvZ1FQYTJzUUdORTFiR0hNWU91NDczUFpVMGtQMVo5LXZTeHBoNnRpQktyVGlfcHRtS3RCVlNLUmN2Q1Y3RDJXSUJMUzF5aDJqVWNTVjZadGZncTJyMHZNNk04SXh1bHh4T0VDcE5STi1RR25QdzNoSjNPLTd0dXUwMC1LLUhERnBNRl9wOThJYzhxcXFwVFZDQ0cw?oc=5",
-"s": "iDNES.cz",
-"d": "2026-11-12T07:18:00Z",
 "k": "Kanada"
 }
 ]
