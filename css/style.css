@@ -327,3 +327,9 @@ details.data summary{padding:4px 0;font-weight:500;color:var(--navy-700);font-si
   dl.terms{grid-template-columns:1fr}
   .cards{grid-template-columns:1fr}
 }
+
+.mapfig{margin:18px 0 14px}
+.mapfig img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:10px;background:#fff}
+.mapfig a{display:block}
+.mapfig a:focus-visible{outline:3px solid var(--sky);outline-offset:3px;border-radius:10px}
+.mapfig figcaption{font-size:14px;color:var(--muted);margin-top:6px;line-height:1.45}
