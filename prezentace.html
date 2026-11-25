@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prezentace | USA &amp; Canada</title>
+<meta name="description" content="Prezentace USA, Kanada a NAFTA: 33 snímků k prohlížení i ke stažení v PDF.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top" id="top"></header>
+<div class="pagehead"><div class="wrap"><h1>Prezentace</h1><p>USA, Kanada a NAFTA. Listuj šipkami, klávesami ← → nebo přejetím prstem.</p></div></div>
+<main class="wrap deckview">
+  <figure class="viewer" id="viewer">
+    <div class="stagebox" id="stagebox">
+      <img id="slide" src="assets/prezentace/snimek-01.jpg" width="1920" height="1080" alt="Snímek 1 prezentace USA, Kanada a NAFTA">
+      <button class="nav prev" id="prev" type="button" aria-label="Předchozí snímek">‹</button>
+      <button class="nav next" id="next" type="button" aria-label="Další snímek">›</button>
+    </div>
+    <figcaption class="vbar">
+      <span class="count" id="count" aria-live="polite">1 / 33</span>
+      <span class="progress" aria-hidden="true"><i id="bar"></i></span>
+      <button type="button" id="full">Celá obrazovka</button>
+      <a class="dl" href="assets/prezentace/USA_Kanada_NAFTA.pdf" download>Stáhnout PDF</a>
+    </figcaption>
+  </figure>
+  <h2 class="thumbh">Všechny snímky</h2>
+  <div class="thumbs" id="thumbs"></div>
+</main>
+<footer id="foot"></footer>
+<script src="js/app.js"></script>
+<script>
+(function () {
+  const N = 33, pad = n => String(n).padStart(2, "0");
+  const img = document.getElementById("slide"), count = document.getElementById("count"), bar = document.getElementById("bar"), thumbs = document.getElementById("thumbs");
+  thumbs.innerHTML = Array.from({ length: N }, (_, i) => `<button type="button" data-i="${i + 1}" aria-label="Snímek ${i + 1}"><img src="assets/prezentace/nahled-${pad(i + 1)}.jpg" width="320" height="180" loading="lazy" alt=""><span>${i + 1}</span></button>`).join("");
+  let cur = 1;
+  function show(n, push) {
+    cur = Math.min(N, Math.max(1, n));
+    img.src = `assets/prezentace/snimek-${pad(cur)}.jpg`;
+    img.alt = `Snímek ${cur} z ${N}, prezentace USA, Kanada a NAFTA`;
+    count.textContent = `${cur} / ${N}`;
+    bar.style.width = (cur / N * 100) + "%";
+    thumbs.querySelectorAll("button").forEach(b => b.toggleAttribute("aria-current", +b.dataset.i === cur));
+    if (push !== false) history.replaceState(null, "", "#s" + cur);
+    [cur - 1, cur + 1].filter(k => k >= 1 && k <= N).forEach(k => { const p = new Image(); p.src = `assets/prezentace/snimek-${pad(k)}.jpg`; });
+  }
+  document.getElementById("prev").onclick = () => show(cur - 1);
+  document.getElementById("next").onclick = () => show(cur + 1);
+  thumbs.onclick = e => { const b = e.target.closest("button"); if (b) { show(+b.dataset.i); document.getElementById("viewer").scrollIntoView({ behavior: "smooth", block: "start" }); } };
+  document.addEventListener("keydown", e => {
+    if (e.target.closest("input,textarea")) return;
+    if (e.key === "ArrowRight" || e.key === "PageDown" || e.key === " ") { e.preventDefault(); show(cur + 1); }
+    else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); show(cur - 1); }
+    else if (e.key === "Home") show(1); else if (e.key === "End") show(N);
+  });
+  let x0 = null;
+  img.addEventListener("touchstart", e => { x0 = e.touches[0].clientX; }, { passive: true });
+  img.addEventListener("touchend", e => { if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) show(cur + (dx < 0 ? 1 : -1)); x0 = null; });
+  img.onclick = () => show(cur + 1);
+  const box = document.getElementById("stagebox"), fb = document.getElementById("full");
+  fb.onclick = () => { if (document.fullscreenElement) document.exitFullscreen(); else if (box.requestFullscreen) box.requestFullscreen().catch(() => {}); };
+  document.addEventListener("fullscreenchange", () => { fb.textContent = document.fullscreenElement ? "Zavřít celou obrazovku" : "Celá obrazovka"; });
+  if (!document.fullscreenEnabled) fb.hidden = true;
+  const m = location.hash.match(/^#s(\d+)$/); show(m ? +m[1] : 1, false);
+})();
+</script>
+</body>
+</html>

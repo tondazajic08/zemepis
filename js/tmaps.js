@@ -114,7 +114,8 @@
       t: "Zemědělství", view: "lower",
       p: "Zemědělství USA a Kanady je velkovýrobní a vysoce mechanizované, pracuje v něm jen kolem 1–2 % lidí, a přesto patří k největším vývozcům potravin na světě. Specializace podle podnebí a půdy dala vzniknout tzv. pásům (belts).",
       tips: ["Corn Belt: kukuřice, sója a chov prasat, kukuřice slouží i na krmivo a etanol.", "Wheat Belt: na sušších planinách pšenice, na jihu ozimá, na severu a v Kanadě jarní.", "Kalifornie: zavlažované ovoce, zelenina, ořechy a víno v Centrálním údolí.", "Kanadské prérie: pšenice a řepka, Kanada je velkým vývozcem obou."],
-      fills: group({ c2: "IA IL IN NE OH", c1: "KS ND OK MT SD CA_SK CA_AB CA_MB", c4: "TX GA MS AR AL", c3: "WI MN NY VT", c5: "WY NM" }),
+      fills: group({ c2: "IA IL IN NE OH", c1: "KS ND OK MT SD CA_SK CA_AB CA_MB", c4: "TX GA MS AR AL LA SC NC TN", c3: "WI MN MI NY PA VT", c5: "WY NM" }),
+      areas: [[[-122.5, 40.6], [-121.6, 40.0], [-121.0, 38.5], [-120.0, 37.0], [-118.7, 35.3], [-119.4, 35.0], [-120.6, 36.5], [-121.8, 37.9], [-122.3, 39.2]], [[-82.8, 29.2], [-81.2, 29.6], [-80.6, 28.4], [-80.1, 26.5], [-80.4, 25.2], [-81.2, 25.4], [-81.8, 26.4], [-82.7, 27.8]]],
       legend: [
         ["c2", "Corn Belt", "Kukuřičný pás na úrodných černozemích Středozápadu. Kukuřice, sója, chov prasat a skotu na výkrm. Iowa je největším producentem kukuřice."],
         ["c1", "Wheat Belt", "Pšeničný pás na sušších Velkých planinách a v kanadských prériích. Kansas (ozimá pšenice), Severní Dakota a Saskatchewan (jarní pšenice)."],
@@ -123,9 +124,32 @@
         ["c5", "pastevectví", "Extenzivní chov skotu na suchých pastvinách západu (ranče). Skot se chová i v Texasu a na planinách."]
       ],
       f: [
-        LB("Centrální údolí", [-120.3, 37.2], "Zavlažované údolí v Kalifornii, ovoce, zelenina, mandle a víno. Kalifornie je zemědělsky nejvýnosnějším státem USA.", "t-range"),
-        LB("Florida: citrusy", [-81.5, 27.8], "Pomeranče a grapefruity, cukrová třtina u Everglades.", "t-range"),
+        LB("Fruit & Vegetable Belt", [-119.2, 33.6], "Centrální údolí v Kalifornii: díky zavlažování a teplu ovoce, zelenina, ořechy a víno (mandle, hrozny). Kalifornie je zemědělsky nejvýnosnějším státem USA.", "t-range"),
+        LB("Fruit & Vegetable Belt", [-76.2, 27.6], "Florida: citrusy (pomeranče, grapefruity), zelenina a cukrová třtina u Everglades.", "t-range"),
         LB("Idaho: brambory", [-114.5, 43.4], "Idaho je známé pěstováním brambor.", "t-range")
+      ]
+    },
+    pasy: {
+      t: "Hospodářské pásy", view: "lower",
+      p: "Hospodářské a kulturní pásy (belts) USA. Nemají úřední hranice, vyznačeny jsou podle států, které uvádějí učebnice. Sun Belt je čárkovaná oblast jižně od 37. rovnoběžky a překrývá se s ostatními pásy na jihu.",
+      tips: ["Rust Belt: bývalý průmyslový pás u Velkých jezer (Detroit, Pittsburgh, Cleveland, Chicago), od 70. let úpadek, dnes služby a technologie.", "Sun Belt: nejrychleji rostoucí jih a jihozápad od Floridy po Kalifornii, teplé klima a nižší daně.", "Oil Belt: ropa a zemní plyn v Texasu, Oklahomě a Louisianě, petrochemie v Houstonu.", "Bible Belt: konzervativní protestantský jihovýchod, zahraniční automobilky.", "Tech Hubs: Silicon Valley, Seattle, Austin a Boston."],
+      fills: group({ c1: "NY PA OH MI IN IL WI", c4: "TX OK LA", c2: "AR MS AL TN KY GA SC NC" }),
+      areas: [[[-122.0, 37], [-119, 37], [-116, 37], [-113, 37], [-110, 37], [-107, 37], [-104, 37], [-101, 37], [-98, 37], [-95, 37], [-92, 37], [-89, 37], [-86, 37], [-83, 37], [-80, 37], [-75.8, 37], [-75.5, 35.2], [-78.5, 33.8], [-81, 31.5], [-80.1, 26.5], [-80.4, 25.1], [-81.8, 26.1], [-82.8, 28.5], [-84.3, 30], [-86.5, 30.4], [-89.6, 30.2], [-91.5, 29.4], [-94, 29.6], [-97.2, 27.6], [-97.2, 25.95], [-99.5, 27.5], [-101.4, 29.8], [-103.2, 28.98], [-104.9, 30.6], [-106.5, 31.78], [-108.2, 31.33], [-111.1, 31.33], [-114.8, 32.5], [-117.1, 32.53], [-118.4, 33.9], [-120.6, 34.55], [-121.9, 36.6]]],
+      legend: [
+        ["c1", "Rust Belt", "Bývalé centrum těžkého průmyslu, oceláren a automobilek kolem Velkých jezer (Detroit, Pittsburgh, Cleveland, Chicago), které od 70. let upadalo a dnes přechází na služby, zdravotnictví a moderní technologie."],
+        ["c4", "Oil Belt", "Těžba a zpracování ropy a zemního plynu v Texasu, Oklahomě, Louisianě a na pobřeží Mexického zálivu, s centrem petrochemie v Houstonu. Tyto tři státy patří zároveň do Bible Beltu."],
+        ["c2", "Bible Belt", "Kulturní oblast na jihovýchodě USA se silným vlivem protestantské církve a konzervativních hodnot, kde se kvůli nižším mzdám usadilo mnoho zahraničních automobilek. Patří sem i Texas, Oklahoma a Louisiana (na mapě jako Oil Belt)."],
+        ["c3", "Tech Hubs", "Centra informačních technologií, umělé inteligence, biotechnologií a kosmického průmyslu, hlavně Silicon Valley, Seattle, Austin a Boston (Apple, Google, Microsoft, SpaceX)."]
+      ],
+      f: [
+        LB("Sun Belt", [-111.5, 33.6], "Nejrychleji rostoucí oblast USA na jihu a jihozápadě od Floridy po Kalifornii, kam se kvůli teplému klimatu a nižším daním stěhují firmy i lidé ze severu. Obvykle se vymezuje jižně od 37. rovnoběžky.", "t-range", 1.2),
+        LB("Rust Belt", [-84.3, 41.3], "Bývalé centrum těžkého průmyslu, oceláren a automobilek kolem Velkých jezer (Detroit, Pittsburgh, Cleveland, Chicago), které od 70. let upadalo a dnes přechází na služby, zdravotnictví a moderní technologie.", "t-range"),
+        LB("Oil Belt", [-98.5, 32.2], "Těžba a zpracování ropy a zemního plynu v Texasu, Oklahomě, Louisianě a na pobřeží Mexického zálivu, s centrem petrochemie v Houstonu.", "t-range"),
+        LB("Bible Belt", [-86.5, 34.2], "Kulturní oblast na jihovýchodě USA se silným vlivem protestantské církve a konzervativních hodnot, kde se kvůli nižším mzdám usadilo mnoho zahraničních automobilek.", "t-range"),
+        PT("Silicon Valley", [-121.89, 37.34], "c3", "San Francisco a San José: Apple, Google, Nvidia, centrum IT a umělé inteligence.", "l"),
+        PT("Seattle", [-122.33, 47.61], "c3", "Microsoft, Amazon, letecký průmysl Boeing.", "r"),
+        PT("Austin", [-97.74, 30.27], "c3", "Rychle rostoucí technologické centrum Texasu (Tesla, Dell, Apple).", "b"),
+        PT("Boston", [-71.06, 42.36], "c3", "Univerzity Harvard a MIT, biotechnologie a výzkum.", "r")
       ]
     },
     suroviny: {
